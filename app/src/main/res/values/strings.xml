@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">M_C_Ap_modelQAApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="fragment1_1_label">First Fragment</string>
+    <string name="fragment1_2_label">Second Fragment</string>
+    <string name="fragment1_3_label">third Fragment</string>
+
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_fragment1_1">Hello first fragment</string>
+    <string name="hello_fragment1_2">Hello second fragment. Arg: %1$s</string>
+
+
+
+    <string name="tab_title_1">1</string>
+    <string name="tab_title_2">2</string>
+    <string name="tab_title_3">3</string>
+    <string name="tab_title_4">4</string>
+    <string name="tab_title_5">5</string>
+    <string name="tab_title_6">6</string>
+    <string name="tab_title_7">7</string>
+    <string name="tab_title_8">8</string>
+    <string name="tab_title_9">9</string>
+    <string name="tab_title_10">10</string>
+    <string name="tab_title_11">11</string>
+    <string name="tab_title_12">12</string>
+    <string name="tab_title_13">13</string>
+    <string name="tab_title_14">14</string>
+    <string name="tab_title_15">15</string>
+    <string name="tab_title_16">16</string>
+    <string name="tab_title_17">17</string>
+    <string name="tab_title_18">18</string>
+
+    <!-- ドロワー・メニュー用文字列 -->
+    <string name="genre_select_label">ジャンル選択</string>
+    <string name="menu_normal_label">普通薬</string>
+    <string name="menu_powerful_drug_label">劇薬</string>
+    <string name="menu_poisonal_drug_label">毒薬</string>
+    <string name="menu_psychiatric_drug_label">向精神薬</string>
+    <string name="menu_drug_label">e</string>
+    <string name="menu_eye_drops_label">f</string>
+    <string name="menu_injection_label">g</string>
+    <string name="menu_caution_label">h</string>
+    <string name="menu_a_little_story_label">i</string>
+
+    <!-- 設定画面用文字列 -->
+    <string name="settings_titile">設定</string>
+    <string name="menu_change_button_label">変更</string>
+    <string name="menu_logout_label">ログアウト</string>
+    <string name="no_login_user">ログインしていません</string>
+    <string name="change_disp_name">表示名を変更しました</string>
+    <string name="logout_complete_message">ログアウトしました</string>
+
+</resources>

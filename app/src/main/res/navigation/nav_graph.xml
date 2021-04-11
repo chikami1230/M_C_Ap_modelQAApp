@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Fragment1_1">
+
+    <fragment
+        android:id="@+id/Fragment1_1"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_1"
+        android:label="@string/fragment1_1_label"
+        tools:layout="@layout/fragment1_1">
+
+        <action
+            android:id="@+id/action_Fragment1_1_to_Fragment1_2"
+            app:destination="@id/Fragment1_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment1_2"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_2"
+        android:label="@string/fragment1_2_label"
+        tools:layout="@layout/fragment1_2">
+
+        <action
+            android:id="@+id/action_Fragment1_2_to_Fragment1_1"
+            app:destination="@id/Fragment1_1" />
+
+        <action
+            android:id="@+id/action_Fragment1_2_to_Fragment1_3"
+            app:destination="@id/Fragment1_3" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment1_3"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_2"
+        android:label="@string/fragment1_2_label"
+        tools:layout="@layout/fragment1_3">
+
+        <action
+            android:id="@+id/action_Fragment1_3_to_Fragment1_2"
+            app:destination="@id/Fragment1_2" />
+    </fragment>
+</navigation>
