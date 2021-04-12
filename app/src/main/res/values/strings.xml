@@ -18,6 +18,17 @@
     <string name="fragment1_14_label">Fragment1_14</string>
 
 
+    <string name="fragment2_1_label">Fragment2_1</string>
+    <string name="fragment2_2_label">Fragment2_2</string>
+    <string name="fragment2_3_label">Fragment2_3</string>
+    <string name="fragment2_4_label">Fragment2_4</string>
+    <string name="fragment2_5_label">Fragment2_5</string>
+    <string name="fragment2_6_label">Fragment2_6</string>
+    <string name="fragment2_7_label">Fragment2_7</string>
+    <string name="fragment2_8_label">Fragment2_8</string>
+    <string name="fragment2_9_label">Fragment2_9</string>
+
+
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 

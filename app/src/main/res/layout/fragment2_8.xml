@@ -64,43 +64,52 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アダラートL10"
+            android:text="ベニジピン2mg"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アダラートカプセル5mg"
+            android:text="ベニジピン4mg"
             android:id="@+id/button2"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトモキセチンカプセル10"
+            android:text="ベタニス25"
             android:id="@+id/button3"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトモキセチンカプセル25"
+            android:text="ベタニス50"
             android:id="@+id/button4"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="ベンズブロマロン25"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="ベンズブロマロン50"
             android:id="@+id/button6"/>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </LinearLayout>
 
@@ -163,42 +172,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット1番"
+            android:text="ボルクレン25"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット2番"
+            android:text="ミカムロ配合錠AP"
             android:id="@+id/button8"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット3番"
+            android:text="ミカムロ配合錠BP"
             android:id="@+id/button9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット4番"
+            android:text="ミノドロン50"
             android:id="@+id/button10"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アプリンジンカプセル"
+            android:text="メキシレチンカプセル100"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="メトグルコ250"
             android:id="@+id/button12"/>
 
 

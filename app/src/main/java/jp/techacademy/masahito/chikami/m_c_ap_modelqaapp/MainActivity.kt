@@ -18,7 +18,7 @@ import androidx.navigation.fragment.NavHostFragment.findNavController
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.navigation.NavigationView    // ← 追加
 import jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_1
-import jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_1
+
 // findViewById()を呼び出さずに該当Viewを取得するために必要となるインポート宣言
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*    // ← 追加
@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         if (id == R.id.nav_nomal) {
             toolbar.title = getString(R.string.menu_normal_label)
             mGenre = 1
-            //findNavController(R.menu.menu_main).navigate(R.id.action_move_Fragment1_1)
+            //findNavController(R.layout.activity_main).navigate(R.id.nav_nomal)
 
         } else if (id == R.id.nav_power) {
             toolbar.title = getString(R.string.menu_powerful_drug_label)

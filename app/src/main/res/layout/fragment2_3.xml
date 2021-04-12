@@ -64,43 +64,52 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アダラートL10"
+            android:text="イニシンク配合錠"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アダラートカプセル5mg"
+            android:text="イルアミクスHD"
             android:id="@+id/button2"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトモキセチンカプセル10"
+            android:text="イルアミクスLD"
             android:id="@+id/button3"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトモキセチンカプセル25"
+            android:text="エックスフォージ配合錠"
             android:id="@+id/button4"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="エディロールカプセル0.75"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="エクメットHD"
             android:id="@+id/button6"/>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </LinearLayout>
 
@@ -163,42 +172,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット1番"
+            android:text="エクメットLD"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット2番"
+            android:text="エトドラク200"
             android:id="@+id/button8"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット3番"
+            android:text="カムシア配合錠HD"
             android:id="@+id/button9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット4番"
+            android:text="カムシア配合錠LD"
             android:id="@+id/button10"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アプリンジンカプセル"
+            android:text="カルフィーナ1.0μg"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="カロナール錠500"
             android:id="@+id/button12"/>
 
 

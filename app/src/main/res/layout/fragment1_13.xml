@@ -126,7 +126,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="なし"
+            android:text=""
             android:id="@+id/button8"/>
         <Button
             android:id="@+id/button_back"
@@ -248,14 +248,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="なし"
+            android:text=""
             android:id="@+id/button15"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="なし"
+            android:text=""
             android:id="@+id/button16"/>
 
         <Button

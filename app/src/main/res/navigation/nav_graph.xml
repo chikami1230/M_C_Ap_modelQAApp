@@ -204,11 +204,9 @@
         android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_14"
         android:label="@string/fragment1_14_label"
         tools:layout="@layout/fragment1_14"/>
-
-    <action
-        android:id="@+id/action_Fragment1_14_to_Fragment1_13"
-        app:destination="@id/Fragment1_13" />
-
+        <action
+            android:id="@+id/action_Fragment1_14_to_Fragment1_13"
+            app:destination="@id/Fragment1_13" />
 
 
 
@@ -216,23 +214,137 @@
     <fragment
         android:id="@+id/Fragment2_1"
         android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_1"
+        android:label="@string/fragment2_1_label"
         tools:layout="@layout/fragment2_1">
+
+        <action
+            android:id="@+id/action_Fragment2_1_to_Fragment2_2"
+            app:destination="@id/Fragment2_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment2_2"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_2"
+        android:label="@string/fragment2_2_label"
+        tools:layout="@layout/fragment2_2">
+
+        <action
+            android:id="@+id/action_Fragment2_2_to_Fragment2_1"
+            app:destination="@id/Fragment2_1" />
+
+        <action
+            android:id="@+id/action_Fragment2_2_to_Fragment2_3"
+            app:destination="@id/Fragment2_3" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment2_3"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_3"
+        android:label="@string/fragment2_3_label"
+        tools:layout="@layout/fragment2_3">
+
+        <action
+            android:id="@+id/action_Fragment2_3_to_Fragment2_2"
+            app:destination="@id/Fragment2_2" />
+        <action
+            android:id="@+id/action_Fragment2_3_to_Fragment2_4"
+            app:destination="@id/Fragment2_4" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment2_4"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_4"
+        android:label="@string/fragment2_4_label"
+        tools:layout="@layout/fragment2_4">
+
+        <action
+            android:id="@+id/action_Fragment2_4_to_Fragment2_3"
+            app:destination="@id/Fragment2_3" />
+
+        <action
+            android:id="@+id/action_Fragment2_4_to_Fragment2_5"
+            app:destination="@id/Fragment2_5" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment2_5"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_5"
+        android:label="@string/fragment2_5_label"
+        tools:layout="@layout/fragment2_5">
+
+        <action
+            android:id="@+id/action_Fragment2_5_to_Fragment2_4"
+            app:destination="@id/Fragment2_4" />
+
+        <action
+            android:id="@+id/action_Fragment2_5_to_Fragment2_6"
+            app:destination="@id/Fragment2_6" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment2_6"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_6"
+        android:label="@string/fragment2_6_label"
+        tools:layout="@layout/fragment2_6">
+
+        <action
+            android:id="@+id/action_Fragment2_6_to_Fragment2_5"
+            app:destination="@id/Fragment2_5" />
+
+        <action
+            android:id="@+id/action_Fragment2_6_to_Fragment2_7"
+            app:destination="@id/Fragment2_7" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment2_7"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_7"
+        android:label="@string/fragment2_7_label"
+        tools:layout="@layout/fragment2_7">
+
+        <action
+            android:id="@+id/action_Fragment2_7_to_Fragment2_6"
+            app:destination="@id/Fragment2_6" />
+
+        <action
+            android:id="@+id/action_Fragment2_7_to_Fragment2_8"
+            app:destination="@id/Fragment2_8" />
     </fragment>
 
 
+    <fragment
+        android:id="@+id/Fragment2_8"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_8"
+        android:label="@string/fragment2_8_label"
+        tools:layout="@layout/fragment2_8">
 
+        <action
+            android:id="@+id/action_Fragment2_8_to_Fragment2_7"
+            app:destination="@id/Fragment2_7" />
 
+        <action
+            android:id="@+id/action_Fragment2_8_to_Fragment2_9"
+            app:destination="@id/Fragment2_9" />
+    </fragment>
 
+    <fragment
+        android:id="@+id/Fragment2_9"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_9"
+        android:label="@string/fragment2_9_label"
+        tools:layout="@layout/fragment2_9">
 
+        <action
+            android:id="@+id/action_Fragment2_9_to_Fragment2_8"
+            app:destination="@id/Fragment2_8" />
 
-    <activity
+    </fragment>
+
+    <fragment
         android:id="@+id/MainActivity"
         android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.MainActivity"
         tools:layout="@layout/activity_main">
-        <!--<action
-            android:id="@+id/action_move_Fragment1_1"
-            app:destination="@id/Fragment1_1" />-->
 
-    </activity>
+    </fragment>
 
 </navigation>

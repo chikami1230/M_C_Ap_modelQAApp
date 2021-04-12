@@ -64,43 +64,52 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アダラートL10"
+            android:text="シベノール100"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アダラートカプセル5mg"
+            android:text="シュアポスト0.25"
             android:id="@+id/button2"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトモキセチンカプセル10"
+            android:text="シュアポスト0.5"
             android:id="@+id/button3"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトモキセチンカプセル25"
+            android:text="ストラテラカプセル25"
             android:id="@+id/button4"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="ストラテラカプセル40"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="セレクトール100"
             android:id="@+id/button6"/>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </LinearLayout>
 
@@ -163,42 +172,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット1番"
+            android:text="セレクトール200"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット2番"
+            android:text="セレコックス100"
             android:id="@+id/button8"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット3番"
+            android:text="ソニアス配合錠LD"
             android:id="@+id/button9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アマルエット4番"
+            android:text="ゾーミックRM2.5"
             android:id="@+id/button10"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アプリンジンカプセル"
+            android:text="チャンピックス錠スタート用パック"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text=""
+            android:text="チャンピックス1mg"
             android:id="@+id/button12"/>
 
 

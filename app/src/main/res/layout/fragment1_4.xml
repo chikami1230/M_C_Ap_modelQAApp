@@ -126,7 +126,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="輪ゴム中" />
+            android:text="" />
 
         <Button
             android:id="@+id/button_back"
@@ -255,7 +255,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="輪ゴム大"
+            android:text=""
             android:id="@+id/button16"/>
 
         <Button

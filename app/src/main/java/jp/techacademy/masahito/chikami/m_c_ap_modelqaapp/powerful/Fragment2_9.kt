@@ -14,14 +14,14 @@ import kotlinx.android.synthetic.main.fragment1_1.*
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class Fragment2_1 : Fragment() {
+class Fragment2_9 : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment2_1, container, false)
+        return inflater.inflate(R.layout.fragment2_9, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -359,10 +359,8 @@ class Fragment2_1 : Fragment() {
         }
 
 
-        view.findViewById<Button>(R.id.button_next).setOnClickListener {
-            findNavController().navigate(R.id.action_Fragment2_1_to_Fragment2_2)
+        view.findViewById<Button>(R.id.button_back).setOnClickListener {
+            findNavController().navigate(R.id.action_Fragment2_9_to_Fragment2_8)
         }
     }
 }
-
-
