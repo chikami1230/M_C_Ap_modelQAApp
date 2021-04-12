@@ -2,9 +2,20 @@
     <string name="app_name">M_C_Ap_modelQAApp</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="fragment1_1_label">First Fragment</string>
-    <string name="fragment1_2_label">Second Fragment</string>
-    <string name="fragment1_3_label">third Fragment</string>
+    <string name="fragment1_1_label">Fragment1_1</string>
+    <string name="fragment1_2_label">Fragment1_2</string>
+    <string name="fragment1_3_label">Fragment1_3</string>
+    <string name="fragment1_4_label">Fragment1_4</string>
+    <string name="fragment1_5_label">Fragment1_5</string>
+    <string name="fragment1_6_label">Fragment1_6</string>
+    <string name="fragment1_7_label">Fragment1_7</string>
+    <string name="fragment1_8_label">Fragment1_8</string>
+    <string name="fragment1_9_label">Fragment1_9</string>
+    <string name="fragment1_10_label">Fragment1_10</string>
+    <string name="fragment1_11_label">Fragment1_11</string>
+    <string name="fragment1_12_label">Fragment1_12</string>
+    <string name="fragment1_13_label">Fragment1_13</string>
+    <string name="fragment1_14_label">Fragment1_14</string>
 
 
     <string name="next">Next</string>

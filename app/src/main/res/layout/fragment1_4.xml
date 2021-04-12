@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="1dp"
     android:orientation="horizontal">
 
@@ -63,69 +62,78 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_checkbox_blank"
             android:id="@+id/checkbox_blank8" />
+
+
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="133dp"
         android:layout_height="wrap_content"
         android:layout_margin="1dp"
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アジルバ10"
-            android:id="@+id/button1"/>
+            android:text="ビソプロロール2.5" />
 
         <Button
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アジルバ20"
-            android:id="@+id/button2"/>
+            android:text="ビソプロロール5" />
 
         <Button
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アジルバ40"
-            android:id="@+id/button3"/>
+            android:text="ピタバスタチン1" />
 
         <Button
+            android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アスベリン20"
-            android:id="@+id/button4"/>
+            android:text="ピタバスタチンOD2" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:id="@+id/button5"
+            android:layout_width="131dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アゼルニジピン8"
-            android:id="@+id/button5"/>
+            android:text="ピタバスタチンカルシウム4" />
 
         <Button
+            android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アゼルニジピン16"
-            android:id="@+id/button6"/>
+            android:text="ビタメジンB25" />
 
         <Button
+            android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アモキシシリン250"
-            android:id="@+id/button7"/>
+            android:text="ビラノア20" />
 
         <Button
+            android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="なし"
-            android:id="@+id/button8"/>
+            android:text="輪ゴム中" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:text="@string/previous" />
     </LinearLayout>
 
     <LinearLayout
@@ -188,7 +196,6 @@
 
 
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -199,70 +206,64 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アテノロール25"
+            android:text="ファモチジンD10"
             android:id="@+id/button9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アテノロール50"
+            android:text="ファモチジンOD20"
             android:id="@+id/button10"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトーゼットLD"
+            android:text="フェノフィブラート53.3"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトーゼットHD"
+            android:text="フェノフィブラート100"
             android:id="@+id/button12"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトルバスタチン5"
+            android:text="フェロミア50"
             android:id="@+id/button13"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトルバスタチン10"
+            android:text="フェキソフェナジン60"
             android:id="@+id/button14"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アリナミンF25"
+            android:text="フェロベリン配合錠"
             android:id="@+id/button15"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="なし"
+            android:layout_marginBottom="5dp"
+            android:text="輪ゴム大"
             android:id="@+id/button16"/>
 
         <Button
             android:id="@+id/button_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/next"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:text="@string/next" />
+
     </LinearLayout>
 
-
-
 </LinearLayout>
-
-

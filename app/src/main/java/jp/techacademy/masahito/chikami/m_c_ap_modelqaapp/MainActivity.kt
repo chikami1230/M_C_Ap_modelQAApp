@@ -1,13 +1,24 @@
 package jp.techacademy.masahito.chikami.m_c_ap_modelqaapp
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.Button
 import androidx.appcompat.app.ActionBarDrawerToggle    // ← 追加
 import androidx.core.view.GravityCompat    // ← 追加
+import androidx.fragment.app.Fragment
+import androidx.navigation.NavController
+import androidx.navigation.Navigation.findNavController
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment.findNavController
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.navigation.NavigationView    // ← 追加
+import jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_1
+import jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_1
 // findViewById()を呼び出さずに該当Viewを取得するために必要となるインポート宣言
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*    // ← 追加
@@ -22,6 +33,8 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         // idがtoolbarがインポート宣言により取得されているので
         // id名でActionBarのサポートを依頼
         setSupportActionBar(toolbar)
+
+        
 
         // ～～ ここから
         // ナビゲーションドロワーの設定
@@ -51,20 +64,25 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
     }
 
     // ～～ ここから
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {  //表示名だけ変わる
         val id = item.itemId
 
         if (id == R.id.nav_nomal) {
             toolbar.title = getString(R.string.menu_normal_label)
             mGenre = 1
+            //findNavController(R.menu.menu_main).navigate(R.id.action_move_Fragment1_1)
+
         } else if (id == R.id.nav_power) {
             toolbar.title = getString(R.string.menu_powerful_drug_label)
             mGenre = 2
+
         } else if (id == R.id.nav_poisonal) {
             toolbar.title = getString(R.string.menu_poisonal_drug_label)
+
             mGenre = 3
         } else if (id == R.id.nav_psychiatric) {
             toolbar.title = getString(R.string.menu_psychiatric_drug_label)
+
             mGenre = 4
         }
 
@@ -72,4 +90,5 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         return true
     }
     // ～～ ここまで
+
 }
