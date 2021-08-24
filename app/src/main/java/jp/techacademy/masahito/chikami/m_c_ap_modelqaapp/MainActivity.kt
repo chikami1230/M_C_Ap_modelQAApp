@@ -3,12 +3,15 @@ package jp.techacademy.masahito.chikami.m_c_ap_modelqaapp
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.os.Parcel
+import android.os.Parcelable
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.ActionBarDrawerToggle    // ← 追加
+import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat    // ← 追加
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
@@ -22,15 +25,73 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.navigation.NavigationView    // ← 追加
+import com.google.android.material.tabs.TabLayoutMediator
 import jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_1
 
 // findViewById()を呼び出さずに該当Viewを取得するために必要となるインポート宣言
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*    // ← 追加
 
-class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelectedListener {    // ← 修正
+class MainActivity() : AppCompatActivity(){
+
+    private lateinit var appBarConfiguration: AppBarConfiguration
+    private lateinit var drawerLayout: DrawerLayout
+
+    private var mGenre = 0
+    private val viewPagerAdapter by lazy { ViewPagerAdapter(this) }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // ViewPager2の初期化
+        viewPager2.apply {
+            adapter = viewPagerAdapter
+            orientation = ViewPager2.ORIENTATION_HORIZONTAL // スワイプの向き横（ORIENTATION_VERTICAL を指定すれば縦スワイプで実装可能です）
+            offscreenPageLimit = viewPagerAdapter.itemCount // ViewPager2で保持する画面数
+        }
+
+
+
+
+
+        val toolbar: Toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        // ナビゲーションドロワーへセット
+        drawerLayout = findViewById(R.id.drawer_layout)
+        val navView: NavigationView = findViewById(R.id.nav_view)
+        val navController = findNavController(R.id.nav_host_fragment)
+
+        // アプリバーを設定
+        // setOfに登録した場合、toolbarに←ボタンが表示されなくなる
+        appBarConfiguration = AppBarConfiguration(
+            setOf(
+                R.id.nav_nomal, R.id.Fragment1_2, R.id.Fragment1_3,R.id.Fragment1_4,R.id.Fragment1_5,
+                R.id.Fragment1_6, R.id.Fragment1_7,R.id.Fragment1_8, R.id.Fragment1_9,R.id.Fragment1_10,
+                R.id.Fragment1_11,R.id.Fragment1_12,R.id.Fragment1_13,R.id.Fragment1_14,
+                R.id.nav_power,R.id.Fragment2_2, R.id.Fragment2_3,R.id.Fragment2_4,R.id.Fragment2_5,
+                R.id.Fragment2_6, R.id.Fragment2_7,R.id.Fragment2_8,R.id.Fragment2_9
+            ), drawerLayout
+        )
+        setupActionBarWithNavController(navController, appBarConfiguration)
+        navView.setupWithNavController(navController)
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.nav_host_fragment)
+        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+}
+
+
+    /*
+
+    , NavigationView.OnNavigationItemSelectedListener {    // ← 修正
 
     private var mGenre = 0    // ← 追加
     private lateinit var appBarConfiguration: AppBarConfiguration
@@ -79,17 +140,17 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         drawerLayout = findViewById(R.id.drawer_layout)
 
 
+
         if (id == R.id.nav_nomal) {
             toolbar.title = getString(R.string.menu_normal_label)
             mGenre = 1
             //findNavController().navigate(R.id.action_move_Fragment1_1)
             //val navController = findNavController(R.id.action_move_Fragment1_1)
             //return navController.navigateUp() || super.onSupportNavigateUp()
-            val navView:NavigationView = findViewById(R.id.nav_view)
-            val navController = findNavController(R.id.mFragment1_1)
+            //val navView:NavigationView = findViewById(Fragment1_1)
+            //val navController = findNavController(R.id.mFragment1_1)
 
-
-            navView.setupWithNavController(navController)
+            //navView.setupWithNavController(navController)
 
         } else if (id == R.id.nav_power) {
             toolbar.title = getString(R.string.menu_powerful_drug_label)
@@ -97,7 +158,6 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
           //  val navView:NavigationView = findViewById(R.id.nav_view)
           //  val navController = findNavController(R.layout.fragment2_1)
            // navView.setupWithNavController(navController)
-
 
         } else if (id == R.id.nav_poisonal) {
             toolbar.title = getString(R.string.menu_poisonal_drug_label)
@@ -113,4 +173,11 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         return true
     }
 
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.nav_host_fragment)
+        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
 }
+
+*/

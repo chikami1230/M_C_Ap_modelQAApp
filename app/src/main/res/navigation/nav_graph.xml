@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/Fragment1_1">
+    app:startDestination="@id/nav_nomal">
 
     <fragment
-        android:id="@+id/Fragment1_1"
+        android:id="@+id/nav_nomal"
         android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_1"
         android:label="@string/fragment1_1_label"
         tools:layout="@layout/fragment1_1">
@@ -24,7 +24,7 @@
 
         <action
             android:id="@+id/action_Fragment1_2_to_Fragment1_1"
-            app:destination="@id/Fragment1_1" />
+            app:destination="@id/nav_nomal" />
 
         <action
             android:id="@+id/action_Fragment1_2_to_Fragment1_3"
@@ -212,7 +212,7 @@
 
 
     <fragment
-        android:id="@+id/Fragment2_1"
+        android:id="@+id/nav_power"
         android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_1"
         android:label="@string/fragment2_1_label"
         tools:layout="@layout/fragment2_1">
@@ -222,6 +222,7 @@
             app:destination="@id/Fragment2_2" />
     </fragment>
 
+
     <fragment
         android:id="@+id/Fragment2_2"
         android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powerful.Fragment2_2"
@@ -230,7 +231,7 @@
 
         <action
             android:id="@+id/action_Fragment2_2_to_Fragment2_1"
-            app:destination="@id/Fragment2_1" />
+            app:destination="@id/nav_power" />
 
         <action
             android:id="@+id/action_Fragment2_2_to_Fragment2_3"
@@ -340,16 +341,18 @@
 
     </fragment>
 
+
+
     <fragment
         android:id="@+id/MainActivity"
         android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.MainActivity"
         tools:layout="@layout/activity_main">
         <action
             android:id="@+id/action_move_Fragment1_1"
-            app:destination="@id/Fragment1_1" />
+            app:destination="@id/nav_nomal" />
         <action
             android:id="@+id/action_move_Fragment2_1"
-            app:destination="@id/Fragment2_1" />
+            app:destination="@id/nav_power" />
 
     </fragment>
 

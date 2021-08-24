@@ -7,6 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.R
 import kotlinx.android.synthetic.main.fragment1_1.*
@@ -17,13 +19,13 @@ import kotlinx.android.synthetic.main.fragment1_1.*
 class Fragment1_1 : Fragment() {
 
     override fun onCreateView(
-            inflater: LayoutInflater, container: ViewGroup?,
+            inflater: LayoutInflater,
+            container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment1_1, container, false)
+        val root = inflater.inflate(R.layout.fragment1_1, container, false)
+        return root
     }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
