@@ -40,19 +40,14 @@ class MainActivity() : AppCompatActivity(){
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var drawerLayout: DrawerLayout
 
-    private var mGenre = 0
-    private val viewPagerAdapter by lazy { ViewPagerAdapter(this) }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // ViewPager2の初期化
-        viewPager2.apply {
-            adapter = viewPagerAdapter
-            orientation = ViewPager2.ORIENTATION_HORIZONTAL // スワイプの向き横（ORIENTATION_VERTICAL を指定すれば縦スワイプで実装可能です）
-            offscreenPageLimit = viewPagerAdapter.itemCount // ViewPager2で保持する画面数
-        }
+
+
 
 
 

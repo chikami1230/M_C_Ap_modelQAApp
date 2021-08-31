@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
@@ -459,7 +460,7 @@ class Fragment1_1 : Fragment() {
         }
 
 
-        view.findViewById<Button>(R.id.button_next).setOnClickListener {
+        view.findViewById<ImageView>(R.id.button_next).setOnClickListener {
             findNavController().navigate(R.id.action_Fragment1_1_to_Fragment1_2)
         }
     }

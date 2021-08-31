@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import androidx.navigation.fragment.findNavController
 import jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.R
 import kotlinx.android.synthetic.main.fragment1_1.*
@@ -359,11 +360,11 @@ class Fragment2_3 : Fragment() {
         }
 
 
-        view.findViewById<Button>(R.id.button_back).setOnClickListener {
+        view.findViewById<ImageView>(R.id.button_back).setOnClickListener {
             findNavController().navigate(R.id.action_Fragment2_3_to_Fragment2_2)
         }
 
-        view.findViewById<Button>(R.id.button_next).setOnClickListener {
+        view.findViewById<ImageView>(R.id.button_next).setOnClickListener {
             findNavController().navigate(R.id.action_Fragment2_3_to_Fragment2_4)
         }
     }
