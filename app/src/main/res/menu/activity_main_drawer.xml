@@ -13,7 +13,20 @@
             android:id="@+id/nav_poisonal"
             android:title="@string/menu_poisonal_drug_label"/>
         <item
-            android:id="@+id/nav_psychiatric"
-            android:title="@string/menu_psychiatric_drug_label"/>
+            android:id="@+id/nav_psychotropic"
+            android:title="@string/menu_psychotropic_drug_label"/>
+        <item
+            android:id="@+id/nav_gaiyou"
+            android:title="@string/menu_gaiyou_label"/>
+        <item
+            android:id="@+id/nav_megusuri"
+            android:title="@string/menu_eye_drops_label"/>
+        <item
+            android:id="@+id/nav_powder"
+            android:title="@string/menu_powder"/>
+        <item
+            android:id="@+id/nav_kyuunyuu"
+            android:title="@string/menu_inhalant_label"/>
+
     </group>
 </menu>

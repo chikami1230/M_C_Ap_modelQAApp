@@ -42,6 +42,7 @@ class ViewPagerAdapter(fragmentActivity: FragmentActivity): FragmentStateAdapter
         Fragment2_2()
     )
 
+
     override fun getItemCount(): Int {
         return fragments1.size
         return fragments2.size

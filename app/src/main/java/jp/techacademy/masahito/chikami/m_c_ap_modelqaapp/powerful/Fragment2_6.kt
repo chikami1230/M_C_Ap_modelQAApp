@@ -47,88 +47,88 @@ class Fragment2_6 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "")
-                button1.setText("")
+            if(button1.text == "チラーヂンS25")
+                button1.setText("レボチロキシン")
             else{
-                button1.setText("")
+                button1.setText("チラーヂンS25")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "")
-                button2.setText("")
+            if(button2.text == "チラーヂンS50")
+                button2.setText("レボチロキシン")
             else{
-                button2.setText("")
+                button2.setText("チラーヂンS50")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "")
-                button3.setText("")
+            if(button3.text == "ディレグラ配合錠200")
+                button3.setText("フェキソフェナジン＋エフェドリン")
             else{
-                button3.setText("")
+                button3.setText("ディレグラ配合錠200")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "")
-                button4.setText("")
+            if(button4.text == "テオフィリン徐放錠200")
+                button4.setText("テオフィリン")
             else{
-                button4.setText("")
+                button4.setText("テオフィリン徐放錠200")
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "")
-                button5.setText("")
+            if(button5.text == "テオロング200")
+                button5.setText("テオフィリン")
             else{
-                button5.setText("")
+                button5.setText("テオロング200")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "")
-                button6.setText("")
+            if(button6.text == "デジレル")
+                button6.setText("トラゾドン")
             else{
-                button6.setText("")
+                button6.setText("デジレル")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "")
-                button7.setText("")
+            if(button7.text == "テラムロ配合錠AP")
+                button7.setText("テルミサルタン＋アムロジピン")
             else{
-                button7.setText("")
+                button7.setText("テラムロ配合錠AP")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "")
-                button8.setText("")
+            if(button8.text == "ドネペジルOD5")
+                button8.setText("ドネペジル")
             else{
-                button8.setText("")
+                button8.setText("ドネペジルOD5")
             }
         }
         button9.setOnClickListener {
-            if(button9.text == "")
-                button9.setText("")
+            if(button9.text == "ドネペジルOD10")
+                button9.setText("ドネペジル")
             else{
-                button9.setText("")
+                button9.setText("ドネペジルOD10")
             }
         }
         button10.setOnClickListener {
-            if(button10.text == "")
-                button10.setText("")
+            if(button10.text == "トラムセット配合錠")
+                button10.setText("トラマドール＋アセトアミノフェン")
             else{
-                button10.setText("")
+                button10.setText("トラムセット配合錠")
             }
         }
         button11.setOnClickListener {
-            if(button11.text == "")
-                button11.setText("")
+            if(button11.text == "ナイキサン100")
+                button11.setText("ナプロキセン")
             else{
-                button11.setText("")
+                button11.setText("ナイキサン100")
             }
         }
         button12.setOnClickListener {
-            if(button12.text == "")
-                button12.setText("")
+            if(button12.text == "ニトロペン舌下錠")
+                button12.setText("ニトログリセリン")
             else{
-                button12.setText("")
+                button12.setText("ニトロペン舌下錠")
             }
         }
 
@@ -143,17 +143,17 @@ class Fragment2_6 : Fragment() {
             if(flag1 == true){
                 checkbox_blank1.setImageResource(R.drawable.ic_checkbox_check)
                 flag1 = false
-                editor.putBoolean("CHECK",flag1)
+                editor.putBoolean("CHECK2601",flag1)
                 editor.commit()
             }else{
                 checkbox_blank1.setImageResource(R.drawable.ic_checkbox_blank)
                 flag1 = true
-                editor.putBoolean("CHECK",flag1)
+                editor.putBoolean("CHECK2601",flag1)
                 editor.commit()
             }
         }
 
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2601",true) == false ){
             checkbox_blank1.setImageResource(R.drawable.ic_checkbox_check)
             flag1 = false
         }
@@ -163,16 +163,16 @@ class Fragment2_6 : Fragment() {
             if(flag2 == true){
                 checkbox_blank2.setImageResource(R.drawable.ic_checkbox_check)
                 flag2 = false
-                editor.putBoolean("CHECK",flag2)
+                editor.putBoolean("CHECK2602",flag2)
                 editor.commit()
             }else{
                 checkbox_blank2.setImageResource(R.drawable.ic_checkbox_blank)
                 flag2 = true
-                editor.putBoolean("CHECK",flag2)
+                editor.putBoolean("CHECK2602",flag2)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2602",true) == false ){
             checkbox_blank2.setImageResource(R.drawable.ic_checkbox_check)
             flag2 = false
         }
@@ -182,17 +182,17 @@ class Fragment2_6 : Fragment() {
             if(flag3 == true){
                 checkbox_blank3.setImageResource(R.drawable.ic_checkbox_check)
                 flag3 = false
-                editor.putBoolean("CHECK",flag3)
+                editor.putBoolean("CHECK2603",flag3)
                 editor.commit()
 
             }else{
                 checkbox_blank3.setImageResource(R.drawable.ic_checkbox_blank)
                 flag3 = true
-                editor.putBoolean("CHECK",flag3)
+                editor.putBoolean("CHECK2603",flag3)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2603",true) == false ){
             checkbox_blank3.setImageResource(R.drawable.ic_checkbox_check)
             flag3 = false
         }
@@ -201,16 +201,16 @@ class Fragment2_6 : Fragment() {
             if(flag4 == true){
                 checkbox_blank4.setImageResource(R.drawable.ic_checkbox_check)
                 flag4 = false
-                editor.putBoolean("CHECK",flag4)
+                editor.putBoolean("CHECK2604",flag4)
                 editor.commit()
             }else{
                 checkbox_blank4.setImageResource(R.drawable.ic_checkbox_blank)
                 flag4 = true
-                editor.putBoolean("CHECK",flag4)
+                editor.putBoolean("CHECK2604",flag4)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2604",true) == false ){
             checkbox_blank4.setImageResource(R.drawable.ic_checkbox_check)
             flag4 = false
         }
@@ -219,16 +219,16 @@ class Fragment2_6 : Fragment() {
             if(flag5 == true){
                 checkbox_blank5.setImageResource(R.drawable.ic_checkbox_check)
                 flag5 = false
-                editor.putBoolean("CHECK",flag5)
+                editor.putBoolean("CHECK2605",flag5)
                 editor.commit()
             }else{
                 checkbox_blank5.setImageResource(R.drawable.ic_checkbox_blank)
                 flag5 = true
-                editor.putBoolean("CHECK",flag5)
+                editor.putBoolean("CHECK2605",flag5)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2605",true) == false ){
             checkbox_blank5.setImageResource(R.drawable.ic_checkbox_check)
             flag5 = false
         }
@@ -237,16 +237,16 @@ class Fragment2_6 : Fragment() {
             if(flag6== true){
                 checkbox_blank6.setImageResource(R.drawable.ic_checkbox_check)
                 flag6 = false
-                editor.putBoolean("CHECK",flag6)
+                editor.putBoolean("CHECK2606",flag6)
                 editor.commit()
             }else{
                 checkbox_blank6.setImageResource(R.drawable.ic_checkbox_blank)
                 flag6 = true
-                editor.putBoolean("CHECK",flag6)
+                editor.putBoolean("CHECK2606",flag6)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2606",true) == false ){
             checkbox_blank6.setImageResource(R.drawable.ic_checkbox_check)
             flag6 = false
         }
@@ -255,16 +255,16 @@ class Fragment2_6 : Fragment() {
             if(flag7 == true){
                 checkbox_blank7.setImageResource(R.drawable.ic_checkbox_check)
                 flag7 = false
-                editor.putBoolean("CHECK",flag7)
+                editor.putBoolean("CHECK2607",flag7)
                 editor.commit()
             }else{
                 checkbox_blank7.setImageResource(R.drawable.ic_checkbox_blank)
                 flag7 = true
-                editor.putBoolean("CHECK",flag7)
+                editor.putBoolean("CHECK2607",flag7)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2607",true) == false ){
             checkbox_blank7.setImageResource(R.drawable.ic_checkbox_check)
             flag7 = false
         }
@@ -273,16 +273,16 @@ class Fragment2_6 : Fragment() {
             if(flag8 == true){
                 checkbox_blank8.setImageResource(R.drawable.ic_checkbox_check)
                 flag8 = false
-                editor.putBoolean("CHECK",flag8)
+                editor.putBoolean("CHECK2608",flag8)
                 editor.commit()
             }else{
                 checkbox_blank8.setImageResource(R.drawable.ic_checkbox_blank)
                 flag8 = true
-                editor.putBoolean("CHECK",flag8)
+                editor.putBoolean("CHECK2608",flag8)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2608",true) == false ){
             checkbox_blank8.setImageResource(R.drawable.ic_checkbox_check)
             flag8 = false
         }
@@ -291,16 +291,16 @@ class Fragment2_6 : Fragment() {
             if(flag9 == true){
                 checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
                 flag9 = false
-                editor.putBoolean("CHECK",flag9)
+                editor.putBoolean("CHECK2609",flag9)
                 editor.commit()
             }else{
                 checkbox_blank9.setImageResource(R.drawable.ic_checkbox_blank)
                 flag9 = true
-                editor.putBoolean("CHECK",flag9)
+                editor.putBoolean("CHECK2609",flag9)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2609",true) == false ){
             checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
             flag9 = false
         }
@@ -309,16 +309,16 @@ class Fragment2_6 : Fragment() {
             if(flag10 == true){
                 checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
                 flag10 = false
-                editor.putBoolean("CHECK",flag10)
+                editor.putBoolean("CHECK2610",flag10)
                 editor.commit()
             }else{
                 checkbox_blank10.setImageResource(R.drawable.ic_checkbox_blank)
                 flag10 = true
-                editor.putBoolean("CHECK",flag10)
+                editor.putBoolean("CHECK2610",flag10)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2610",true) == false ){
             checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
             flag10 = false
         }
@@ -327,16 +327,16 @@ class Fragment2_6 : Fragment() {
             if(flag11 == true){
                 checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
                 flag11 = false
-                editor.putBoolean("CHECK",flag11)
+                editor.putBoolean("CHECK2611",flag11)
                 editor.commit()
             }else{
                 checkbox_blank11.setImageResource(R.drawable.ic_checkbox_blank)
                 flag11 = true
-                editor.putBoolean("CHECK",flag11)
+                editor.putBoolean("CHECK2611",flag11)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2611",true) == false ){
             checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
             flag11 = false
         }
@@ -345,16 +345,16 @@ class Fragment2_6 : Fragment() {
             if(flag12 == true){
                 checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
                 flag12 = false
-                editor.putBoolean("CHECK",flag12)
+                editor.putBoolean("CHECK2612",flag12)
                 editor.commit()
             }else{
                 checkbox_blank12.setImageResource(R.drawable.ic_checkbox_blank)
                 flag12 = true
-                editor.putBoolean("CHECK",flag12)
+                editor.putBoolean("CHECK2612",flag12)
                 editor.commit()
             }
         }
-        if(preferences.getBoolean("CHECK",true) == false ){
+        if(preferences.getBoolean("CHECK2612",true) == false ){
             checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
             flag12 = false
         }

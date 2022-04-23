@@ -45,12 +45,7 @@ class MainActivity() : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
-
-
-
-
+        
 
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
@@ -69,7 +64,15 @@ class MainActivity() : AppCompatActivity(){
                 R.id.Fragment1_6, R.id.Fragment1_7,R.id.Fragment1_8, R.id.Fragment1_9,R.id.Fragment1_10,
                 R.id.Fragment1_11,R.id.Fragment1_12,R.id.Fragment1_13,R.id.Fragment1_14,
                 R.id.nav_power,R.id.Fragment2_2, R.id.Fragment2_3,R.id.Fragment2_4,R.id.Fragment2_5,
-                R.id.Fragment2_6, R.id.Fragment2_7,R.id.Fragment2_8,R.id.Fragment2_9
+                R.id.Fragment2_6, R.id.Fragment2_7,R.id.Fragment2_8,R.id.Fragment2_9,
+                R.id.nav_poisonal,R.id.Fragment3_1,
+                R.id.nav_psychotropic,R.id.Fragment4_1,R.id.Fragment4_2,R.id.Fragment4_3,
+                R.id.nav_gaiyou,R.id.Fragment5_1,R.id.Fragment5_2,R.id.Fragment5_3,R.id.Fragment5_4,
+                R.id.nav_megusuri,R.id.Fragment6_1,R.id.Fragment6_2,R.id.Fragment6_3,R.id.Fragment6_4,
+                R.id.nav_powder,R.id.Fragment7_1,R.id.Fragment7_2,
+                R.id.nav_kyuunyuu,R.id.Fragment8_1,R.id.Fragment8_2,R.id.Fragment8_3,R.id.Fragment8_4
+
+
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

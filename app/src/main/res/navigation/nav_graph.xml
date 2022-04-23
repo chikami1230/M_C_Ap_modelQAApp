@@ -338,8 +338,219 @@
         <action
             android:id="@+id/action_Fragment2_9_to_Fragment2_8"
             app:destination="@id/Fragment2_8" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_poisonal"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.poison.Fragment3_1"
+        android:label="@string/fragment3_1_label"
+        tools:layout="@layout/fragment3_1">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_psychotropic"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.psychotropic.Fragment4_1"
+        android:label="@string/fragment4_1_label"
+        tools:layout="@layout/fragment4_1">
+
+        <action
+            android:id="@+id/action_Fragment4_1_to_Fragment4_2"
+            app:destination="@id/Fragment4_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment4_2"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.psychotropic.Fragment4_2"
+        android:label="@string/fragment4_2_label"
+        tools:layout="@layout/fragment4_2">
+
+        <action
+            android:id="@+id/action_Fragment4_2_to_Fragment4_1"
+            app:destination="@id/nav_psychotropic" />
+
+        <action
+            android:id="@+id/action_Fragment4_2_to_Fragment4_3"
+            app:destination="@id/Fragment4_3" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/nav_gaiyou"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.ointment.Fragment5_1"
+        android:label="@string/fragment5_1_label"
+        tools:layout="@layout/fragment5_1">
+
+        <action
+            android:id="@+id/action_Fragment5_1_to_Fragment5_2"
+            app:destination="@id/Fragment5_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment5_2"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.ointment.Fragment5_2"
+        android:label="@string/fragment5_2_label"
+        tools:layout="@layout/fragment5_2">
+
+        <action
+            android:id="@+id/action_Fragment5_2_to_Fragment5_1"
+            app:destination="@id/nav_gaiyou" />
+
+        <action
+            android:id="@+id/action_Fragment5_2_to_Fragment5_3"
+            app:destination="@id/Fragment5_3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment5_3"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.ointment.Fragment5_3"
+        android:label="@string/fragment5_3_label"
+        tools:layout="@layout/fragment5_3">
+
+        <action
+            android:id="@+id/action_Fragment5_3_to_Fragment5_2"
+            app:destination="@id/Fragment5_2" />
+        <action
+            android:id="@+id/action_Fragment5_3_to_Fragment5_4"
+            app:destination="@id/Fragment5_4" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_megusuri"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.eyedrops.Fragment6_1"
+        android:label="@string/fragment6_1_label"
+        tools:layout="@layout/fragment6_1">
+
+        <action
+            android:id="@+id/action_Fragment6_1_to_Fragment6_2"
+            app:destination="@id/Fragment6_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment6_2"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.eyedrops.Fragment6_2"
+        android:label="@string/fragment6_2_label"
+        tools:layout="@layout/fragment6_2">
+
+        <action
+            android:id="@+id/action_Fragment6_2_to_Fragment6_1"
+            app:destination="@id/nav_megusuri" />
+
+        <action
+            android:id="@+id/action_Fragment6_2_to_Fragment6_3"
+            app:destination="@id/Fragment6_3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment6_3"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.eyedrops.Fragment6_3"
+        android:label="@string/fragment6_3_label"
+        tools:layout="@layout/fragment6_3">
+
+        <action
+            android:id="@+id/action_Fragment6_3_to_Fragment6_2"
+            app:destination="@id/Fragment6_2" />
+        <action
+            android:id="@+id/action_Fragment6_3_to_Fragment6_4"
+            app:destination="@id/Fragment6_4" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment6_4"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.eyedrops.Fragment6_4"
+        android:label="@string/fragment6_4_label"
+        tools:layout="@layout/fragment6_4">
+
+        <action
+            android:id="@+id/action_Fragment6_4_to_Fragment6_3"
+            app:destination="@id/Fragment6_3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_powder"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powder.Fragment7_1"
+        android:label="@string/fragment7_1_label"
+        tools:layout="@layout/fragment7_1">
+
+        <action
+            android:id="@+id/action_Fragment7_1_to_Fragment7_2"
+            app:destination="@id/Fragment7_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment7_2"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.powder.Fragment7_2"
+        android:label="@string/fragment7_2_label"
+        tools:layout="@layout/fragment7_2">
+
+        <action
+            android:id="@+id/action_Fragment7_2_to_Fragment7_1"
+            app:destination="@id/nav_powder" />
 
     </fragment>
+
+    <fragment
+        android:id="@+id/nav_kyuunyuu"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.inhalant.Fragment8_1"
+        android:label="@string/fragment8_1_label"
+        tools:layout="@layout/fragment8_1">
+
+        <action
+            android:id="@+id/action_Fragment8_1_to_Fragment8_2"
+            app:destination="@id/Fragment8_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment8_2"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.inhalant.Fragment8_2"
+        android:label="@string/fragment8_2_label"
+        tools:layout="@layout/fragment8_2">
+
+        <action
+            android:id="@+id/action_Fragment8_2_to_Fragment8_1"
+            app:destination="@id/nav_kyuunyuu" />
+
+        <action
+            android:id="@+id/action_Fragment8_2_to_Fragment8_3"
+            app:destination="@id/Fragment8_3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment8_3"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.inhalant.Fragment8_3"
+        android:label="@string/fragment8_3_label"
+        tools:layout="@layout/fragment8_3">
+
+        <action
+            android:id="@+id/action_Fragment8_3_to_Fragment8_2"
+            app:destination="@id/Fragment8_2" />
+        <action
+            android:id="@+id/action_Fragment8_3_to_Fragment8_4"
+            app:destination="@id/Fragment8_4" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Fragment8_4"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.inhalant.Fragment8_4"
+        android:label="@string/fragment8_4_label"
+        tools:layout="@layout/fragment8_4">
+
+        <action
+            android:id="@+id/action_Fragment8_4_to_Fragment8_3"
+            app:destination="@id/Fragment8_3" />
+    </fragment>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -353,6 +564,25 @@
         <action
             android:id="@+id/action_move_Fragment2_1"
             app:destination="@id/nav_power" />
+        <action
+            android:id="@+id/action_move_Fragment3_1"
+            app:destination="@id/nav_poisonal" />
+        <action
+            android:id="@+id/action_move_Fragment4_1"
+            app:destination="@id/nav_psychotropic" />
+        <action
+            android:id="@+id/action_move_Fragment5_1"
+            app:destination="@id/nav_nomal" />
+        <action
+            android:id="@+id/action_move_Fragment6_1"
+            app:destination="@id/nav_power" />
+        <action
+            android:id="@+id/action_move_Fragment7_1"
+            app:destination="@id/nav_powder" />
+        <action
+            android:id="@+id/action_move_Fragment8_1"
+            app:destination="@id/nav_psychotropic" />
+
 
     </fragment>
 

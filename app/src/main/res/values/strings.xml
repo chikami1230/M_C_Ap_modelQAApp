@@ -28,13 +28,52 @@
     <string name="fragment2_8_label">Fragment2_8</string>
     <string name="fragment2_9_label">Fragment2_9</string>
 
+    <string name="fragment3_1_label">Fragment3_1</string>
+
+    <string name="fragment4_1_label">Fragment4_1</string>
+    <string name="fragment4_2_label">Fragment4_2</string>
+    <string name="fragment4_3_label">Fragment4_3</string>
+
+    <string name="fragment5_1_label">Fragment5_1</string>
+    <string name="fragment5_2_label">Fragment5_2</string>
+    <string name="fragment5_3_label">Fragment5_3</string>
+    <string name="fragment5_4_label">Fragment5_4</string>
+
+    <string name="fragment6_1_label">Fragment6_1</string>
+    <string name="fragment6_2_label">Fragment6_2</string>
+    <string name="fragment6_3_label">Fragment6_3</string>
+    <string name="fragment6_4_label">Fragment6_4</string>
+
+    <string name="fragment7_1_label">Fragment7_1</string>
+    <string name="fragment7_2_label">Fragment7_2</string>
+    <string name="fragment7_3_label">Fragment7_3</string>
+    <string name="fragment7_4_label">Fragment7_4</string>
+    <string name="fragment7_5_label">Fragment7_5</string>
+    <string name="fragment7_6_label">Fragment7_6</string>
+    <string name="fragment7_7_label">Fragment7_7</string>
+    <string name="fragment7_8_label">Fragment7_8</string>
+    <string name="fragment7_9_label">Fragment7_9</string>
+    <string name="fragment7_10_label">Fragment7_10</string>
+    <string name="fragment7_11_label">Fragment7_11</string>
+    <string name="fragment7_12_label">Fragment7_12</string>
+    <string name="fragment7_13_label">Fragment7_13</string>
+    <string name="fragment7_14_label">Fragment7_14</string>
+
+    <string name="fragment8_1_label">Fragment8_1</string>
+    <string name="fragment8_2_label">Fragment8_2</string>
+    <string name="fragment8_3_label">Fragment8_3</string>
+    <string name="fragment8_4_label">Fragment8_4</string>
+
+
+
+
+
 
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
     <string name="hello_fragment1_1">Hello first fragment</string>
     <string name="hello_fragment1_2">Hello second fragment. Arg: %1$s</string>
-
 
 
     <string name="tab_title_1">1</string>
@@ -61,11 +100,13 @@
     <string name="menu_normal_label">普通薬</string>
     <string name="menu_powerful_drug_label">劇薬</string>
     <string name="menu_poisonal_drug_label">毒薬</string>
-    <string name="menu_psychiatric_drug_label">向精神薬</string>
-    <string name="menu_drug_label">e</string>
-    <string name="menu_eye_drops_label">f</string>
-    <string name="menu_injection_label">g</string>
-    <string name="menu_caution_label">h</string>
+    <string name="menu_psychotropic_drug_label">向精神薬</string>
+    <string name="menu_gaiyou_label">塗り薬</string>
+    <string name="menu_eye_drops_label">点眼</string>
+    <string name="menu_kanpou_label">漢方薬</string>
+    <string name="menu_powder">散剤</string>
+    <string name="menu_inhalant_label">吸入薬</string>
+    <string name="menu_label">h</string>
     <string name="menu_a_little_story_label">i</string>
 
     <!-- 設定画面用文字列 -->
@@ -75,5 +116,7 @@
     <string name="no_login_user">ログインしていません</string>
     <string name="change_disp_name">表示名を変更しました</string>
     <string name="logout_complete_message">ログアウトしました</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
