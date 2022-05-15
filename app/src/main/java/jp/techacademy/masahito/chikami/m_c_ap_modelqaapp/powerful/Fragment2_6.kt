@@ -17,8 +17,7 @@ import kotlinx.android.synthetic.main.fragment1_1.*
  */
 class Fragment2_6 : Fragment() {
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
@@ -45,92 +44,64 @@ class Fragment2_6 : Fragment() {
         var flag15 = true
         var flag16 = true
 
-
         button1.setOnClickListener {
-            if(button1.text == "チラーヂンS25")
-                button1.setText("レボチロキシン")
+            if( button1.text == "ザグラスLD")
+                button1.setText("アジルサルタン＋アムロジピン")
             else{
-                button1.setText("チラーヂンS25")
+                button1.setText("ザグラスLD")
             }
         }
-
         button2.setOnClickListener {
-            if(button2.text == "チラーヂンS50")
-                button2.setText("レボチロキシン")
+            if( button2.text == "サンリズムカプセル50")
+                button2.setText("ピルシカイニド")
             else{
-                button2.setText("チラーヂンS50")
+                button2.setText("サンリズムカプセル50")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "ディレグラ配合錠200")
-                button3.setText("フェキソフェナジン＋エフェドリン")
+            if( button3.text == "ジゴキシンKY0.25")
+                button3.setText("ジゴキシン")
             else{
-                button3.setText("ディレグラ配合錠200")
+                button3.setText("ジゴキシンKY0.25")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "テオフィリン徐放錠200")
-                button4.setText("テオフィリン")
+            if( button4.text == "シベンゾリンコハク100")
+                button4.setText("シベンゾリン")
             else{
-                button4.setText("テオフィリン徐放錠200")
+                button4.setText("シベンゾリンコハク100")
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "テオロング200")
-                button5.setText("テオフィリン")
+            if( button5.text == "シベノール100")
+                button5.setText("シベンゾリン")
             else{
-                button5.setText("テオロング200")
+                button5.setText("シベノール100")
             }
         }
+
         button6.setOnClickListener {
-            if(button6.text == "デジレル")
-                button6.setText("トラゾドン")
+            if( button6.text == "シュアポスト0.25")
+                button6.setText("レパグリニド")
             else{
-                button6.setText("デジレル")
+                button6.setText("シュアポスト0.25")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "テラムロ配合錠AP")
-                button7.setText("テルミサルタン＋アムロジピン")
+            if(button7.text == "シュアポスト0.5")
+                button7.setText("レパグリニド")
             else{
-                button7.setText("テラムロ配合錠AP")
+                button7.setText("シュアポスト0.5")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "ドネペジルOD5")
-                button8.setText("ドネペジル")
+            if( button8.text == "ストラテラカプセル25")
+                button8.setText("アトモキセチン")
             else{
-                button8.setText("ドネペジルOD5")
+                button8.setText("ストラテラカプセル25")
             }
         }
-        button9.setOnClickListener {
-            if(button9.text == "ドネペジルOD10")
-                button9.setText("ドネペジル")
-            else{
-                button9.setText("ドネペジルOD10")
-            }
-        }
-        button10.setOnClickListener {
-            if(button10.text == "トラムセット配合錠")
-                button10.setText("トラマドール＋アセトアミノフェン")
-            else{
-                button10.setText("トラムセット配合錠")
-            }
-        }
-        button11.setOnClickListener {
-            if(button11.text == "ナイキサン100")
-                button11.setText("ナプロキセン")
-            else{
-                button11.setText("ナイキサン100")
-            }
-        }
-        button12.setOnClickListener {
-            if(button12.text == "ニトロペン舌下錠")
-                button12.setText("ニトログリセリン")
-            else{
-                button12.setText("ニトロペン舌下錠")
-            }
-        }
+
 
 
 
@@ -287,77 +258,6 @@ class Fragment2_6 : Fragment() {
             flag8 = false
         }
 
-        checkbox_blank9.setOnClickListener{
-            if(flag9 == true){
-                checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
-                flag9 = false
-                editor.putBoolean("CHECK2609",flag9)
-                editor.commit()
-            }else{
-                checkbox_blank9.setImageResource(R.drawable.ic_checkbox_blank)
-                flag9 = true
-                editor.putBoolean("CHECK2609",flag9)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2609",true) == false ){
-            checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
-            flag9 = false
-        }
-
-        checkbox_blank10.setOnClickListener{
-            if(flag10 == true){
-                checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
-                flag10 = false
-                editor.putBoolean("CHECK2610",flag10)
-                editor.commit()
-            }else{
-                checkbox_blank10.setImageResource(R.drawable.ic_checkbox_blank)
-                flag10 = true
-                editor.putBoolean("CHECK2610",flag10)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2610",true) == false ){
-            checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
-            flag10 = false
-        }
-
-        checkbox_blank11.setOnClickListener{
-            if(flag11 == true){
-                checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
-                flag11 = false
-                editor.putBoolean("CHECK2611",flag11)
-                editor.commit()
-            }else{
-                checkbox_blank11.setImageResource(R.drawable.ic_checkbox_blank)
-                flag11 = true
-                editor.putBoolean("CHECK2611",flag11)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2611",true) == false ){
-            checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
-            flag11 = false
-        }
-
-        checkbox_blank12.setOnClickListener{
-            if(flag12 == true){
-                checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
-                flag12 = false
-                editor.putBoolean("CHECK2612",flag12)
-                editor.commit()
-            }else{
-                checkbox_blank12.setImageResource(R.drawable.ic_checkbox_blank)
-                flag12 = true
-                editor.putBoolean("CHECK2612",flag12)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2612",true) == false ){
-            checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
-            flag12 = false
-        }
 
 
         view.findViewById<ImageView>(R.id.button_back).setOnClickListener {

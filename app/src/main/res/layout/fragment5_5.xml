@@ -12,14 +12,13 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_margin="1dp"
         android:orientation="horizontal"
-        android:id="@+id/mFragment2_6">
+        android:id="@+id/mFragment8_2">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="0dp"
             android:orientation="vertical">
-
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -60,90 +59,87 @@
                 android:layout_marginBottom="12dp"
                 android:src="@drawable/ic_checkbox_blank"
                 android:id="@+id/checkbox_blank6" />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
                 android:src="@drawable/ic_checkbox_blank"
                 android:id="@+id/checkbox_blank7" />
-            <ImageView android:layout_width="wrap_content"
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
                 android:src="@drawable/ic_checkbox_blank"
                 android:id="@+id/checkbox_blank8" />
-
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="1dp"
-        android:orientation="vertical">
-
-        <Button
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="ザグラスLD"
-            android:id="@+id/button1"/>
+            android:layout_margin="1dp"
+            android:orientation="vertical">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="サンリズムカプセル50"
-            android:id="@+id/button2"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="アンテベートローション"
+                android:id="@+id/button1"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="ジゴキシンKY0.25"
-            android:id="@+id/button3"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="アンテベート軟膏"
+                android:id="@+id/button2"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="シベンゾリンコハク100"
-            android:id="@+id/button4"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="デルモベート軟膏"
+                android:id="@+id/button3"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="デルモベートクリーム"
+                android:id="@+id/button4"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="シベノール100"
-            android:id="@+id/button5"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="プロトピック軟膏"
+                android:id="@+id/button5"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="シュアポスト0.25"
-            android:id="@+id/button6"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="トプシムクリーム"
+                android:id="@+id/button6"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="シュアポスト0.5"
-            android:id="@+id/button7"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="メサデルムクリーム"
+                android:id="@+id/button7"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="ストラテラカプセル25"
-            android:id="@+id/button8"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="トプシムスプレー"
+                android:id="@+id/button8"/>
+        </LinearLayout>
 
 
 
     </LinearLayout>
 
-
-
-</LinearLayout>
     <ImageView
         android:id="@+id/button_back"
         android:src="@drawable/ic_back_40dp"
@@ -159,4 +155,5 @@
         android:layout_height="120dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true" />
+
 </RelativeLayout>

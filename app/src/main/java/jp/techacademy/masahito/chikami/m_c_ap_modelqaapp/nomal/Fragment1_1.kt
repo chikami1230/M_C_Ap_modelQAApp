@@ -99,10 +99,10 @@ class Fragment1_1 : Fragment() {
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "なし")
-                button8.setText("薬入ってない所")
+            if(button8.text == "")
+                button8.setText("")
             else{
-                button8.setText("なし")
+                button8.setText("")
             }
         }
         button9.setOnClickListener {
@@ -155,10 +155,10 @@ class Fragment1_1 : Fragment() {
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "なし")
-                button16.setText("薬入ってない所")
+            if(button16.text == "")
+                button16.setText("")
             else{
-                button16.setText("なし")
+                button16.setText("")
             }
         }
 

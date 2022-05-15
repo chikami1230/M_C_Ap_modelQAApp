@@ -21,47 +21,58 @@
             android:orientation="vertical">
 
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank1" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_checkbox_blank"
+                android:id="@+id/checkbox_blank1" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank2" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_checkbox_blank"
+                android:id="@+id/checkbox_blank2" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank3" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank4" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank5" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank6" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_checkbox_blank"
+                android:id="@+id/checkbox_blank3" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_checkbox_blank"
+                android:id="@+id/checkbox_blank4" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_checkbox_blank"
+                android:id="@+id/checkbox_blank5" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_checkbox_blank"
+                android:id="@+id/checkbox_blank6" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_checkbox_blank"
+                android:id="@+id/checkbox_blank7" />
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_checkbox_blank"
+                android:id="@+id/checkbox_blank8" />
 
-    </LinearLayout>
+        </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -73,144 +84,57 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="メトホルミン500"
+            android:text="ドネペジルOD10"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="メタクト配合錠LD"
+            android:text="トラムセット配合錠"
             android:id="@+id/button2"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="メマリーOD5"
+            android:text="ナイキサン100"
             android:id="@+id/button3"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="メマリーOD10"
+            android:text="ニトロペン舌下錠"
             android:id="@+id/button4"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="メマリーOD20"
+            android:text="ニフェジピンL20"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="メトアナ配合錠LD"
+            android:text="ニフェジピンCR10"
             android:id="@+id/button6"/>
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="0dp"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank7" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank8" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank9" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank10" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank11" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_checkbox_blank"
-            android:id="@+id/checkbox_blank12" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="1dp"
-        android:orientation="vertical">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ラベタロール100"
+            android:text="ニフェジピンCR20"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ラニラピッド0.05"
+            android:text="ニフェジピンCR40"
             android:id="@+id/button8"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="リスモダン100"
-            android:id="@+id/button9"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="ユニシア配合錠HD"
-            android:id="@+id/button10"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="レキサルティ2mg"
-            android:id="@+id/button11"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:text="ワンアルファ1μg"
-            android:id="@+id/button12"/>
 
 
 
@@ -226,6 +150,13 @@
         android:layout_width="150dp"
         android:layout_height="120dp"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true" />
+    <ImageView
+        android:id="@+id/button_next"
+        android:src="@drawable/ic_forward_40dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true" />
 
 </RelativeLayout>

@@ -27,6 +27,11 @@
     <string name="fragment2_7_label">Fragment2_7</string>
     <string name="fragment2_8_label">Fragment2_8</string>
     <string name="fragment2_9_label">Fragment2_9</string>
+    <string name="fragment2_10_label">Fragment2_10</string>
+    <string name="fragment2_11_label">Fragment2_11</string>
+    <string name="fragment2_12_label">Fragment2_12</string>
+    <string name="fragment2_13_label">Fragment2_13</string>
+    <string name="fragment2_14_label">Fragment2_14</string>
 
     <string name="fragment3_1_label">Fragment3_1</string>
 
@@ -38,6 +43,8 @@
     <string name="fragment5_2_label">Fragment5_2</string>
     <string name="fragment5_3_label">Fragment5_3</string>
     <string name="fragment5_4_label">Fragment5_4</string>
+    <string name="fragment5_5_label">Fragment5_5</string>
+    <string name="fragment5_6_label">Fragment5_6</string>
 
     <string name="fragment6_1_label">Fragment6_1</string>
     <string name="fragment6_2_label">Fragment6_2</string>

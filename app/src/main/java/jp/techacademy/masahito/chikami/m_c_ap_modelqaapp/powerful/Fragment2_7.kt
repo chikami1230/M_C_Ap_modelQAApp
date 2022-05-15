@@ -47,90 +47,64 @@ class Fragment2_7 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "ニフェジピンL20")
-                button1.setText("ニフェジピン")
+            if( button1.text == "ストラテラカプセル40")
+                button1.setText("アトモキセチン")
             else{
-                button1.setText("ニフェジピンL20")
+                button1.setText("ストラテラカプセル40")
             }
         }
-
         button2.setOnClickListener {
-            if(button2.text == "ニフェジピンCR10")
-                button2.setText("ニフェジピン")
+            if( button2.text == "セレクトール100")
+                button2.setText("セリプロロール")
             else{
-                button2.setText("ニフェジピンCR10")
+                button2.setText("セレクトール100")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "ニフェジピンCR20")
-                button3.setText("ニフェジピン")
+            if( button3.text == "セレクトール200")
+                button3.setText("セレクトール")
             else{
-                button3.setText("ニフェジピンCR20")
+                button3.setText("セレクトール200")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "ニフェジピンCR40")
-                button4.setText("ニフェジピン")
+            if( button4.text == "セレコックス100")
+                button4.setText("セレコキシブ")
             else{
-                button4.setText("ニフェジピンCR40")
+                button4.setText("セレコックス100")
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "ノルバスク2.5")
-                button5.setText("アムロジピン")
+            if( button5.text == "ソニアス配合錠LD")
+                button5.setText("ピオグリタゾン＋グリメピリド")
             else{
-                button5.setText("ノルバスク2.5")
+                button5.setText("ソニアス配合錠LD")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "ノルバスクOD5")
-                button6.setText("アムロジピン")
+            if( button6.text == "ゾーミックRM2.5")
+                button6.setText("ゾルミトリプタン")
             else{
-                button6.setText("ノルバスクOD5")
+                button6.setText("ゾーミックRM2.5")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "ハーフジゴキシンKY0.125")
-                button7.setText("ジゴキシン")
+            if( button7.text == "チャンピックス錠スタート用パック")
+                button7.setText("バニレクリン")
             else{
-                button7.setText("ハーフジゴキシンKY0.125")
+                button7.setText("チャンピックス錠スタート用パック")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "パキシル5")
-                button8.setText("パロキセチン")
+            if( button8.text == "チャンピックス1mg")
+                button8.setText("バニレクリン")
             else{
-                button8.setText("パキシル5")
+                button8.setText("チャンピックス1mg")
             }
         }
-        button9.setOnClickListener {
-            if(button9.text == "パキシルCR25")
-                button9.setText("パロキセチン")
-            else{
-                button9.setText("パキシルCR25")
-            }
-        }
-        button10.setOnClickListener {
-            if(button10.text == "ピルシカイニドカプセル50")
-                button10.setText("ピルシカイニド")
-            else{
-                button10.setText("ピルシカイニドカプセル50")
-            }
-        }
-        button11.setOnClickListener {
-            if(button11.text == "プロプラノロール10")
-                button11.setText("プロプラノロール")
-            else{
-                button11.setText("プロプラノロール10")
-            }
-        }
-        button12.setOnClickListener {
-            if(button12.text == "ベニジピン8mg")
-                button12.setText("ベニジピン")
-            else{
-                button12.setText("ベニジピン8mg")
-            }
-        }
+
+
+
 
 
 
@@ -287,77 +261,7 @@ class Fragment2_7 : Fragment() {
             flag8 = false
         }
 
-        checkbox_blank9.setOnClickListener{
-            if(flag9 == true){
-                checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
-                flag9 = false
-                editor.putBoolean("CHECK2709",flag9)
-                editor.commit()
-            }else{
-                checkbox_blank9.setImageResource(R.drawable.ic_checkbox_blank)
-                flag9 = true
-                editor.putBoolean("CHECK2709",flag9)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2709",true) == false ){
-            checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
-            flag9 = false
-        }
 
-        checkbox_blank10.setOnClickListener{
-            if(flag10 == true){
-                checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
-                flag10 = false
-                editor.putBoolean("CHECK2710",flag10)
-                editor.commit()
-            }else{
-                checkbox_blank10.setImageResource(R.drawable.ic_checkbox_blank)
-                flag10 = true
-                editor.putBoolean("CHECK2710",flag10)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2710",true) == false ){
-            checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
-            flag10 = false
-        }
-
-        checkbox_blank11.setOnClickListener{
-            if(flag11 == true){
-                checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
-                flag11 = false
-                editor.putBoolean("CHECK2711",flag11)
-                editor.commit()
-            }else{
-                checkbox_blank11.setImageResource(R.drawable.ic_checkbox_blank)
-                flag11 = true
-                editor.putBoolean("CHECK2711",flag11)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2711",true) == false ){
-            checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
-            flag11 = false
-        }
-
-        checkbox_blank12.setOnClickListener{
-            if(flag12 == true){
-                checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
-                flag12 = false
-                editor.putBoolean("CHECK2712",flag12)
-                editor.commit()
-            }else{
-                checkbox_blank12.setImageResource(R.drawable.ic_checkbox_blank)
-                flag12 = true
-                editor.putBoolean("CHECK2712",flag12)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2712",true) == false ){
-            checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
-            flag12 = false
-        }
 
 
         view.findViewById<ImageView>(R.id.button_back).setOnClickListener {

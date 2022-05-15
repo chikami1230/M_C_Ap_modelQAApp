@@ -80,82 +80,27 @@ class Fragment1_14 : Fragment() {
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "なし")
-                button6.setText("なし")
+            if(button6.text == "")
+                button6.setText("")
             else{
-                button6.setText("なし")
+                button6.setText("")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "なし")
-                button7.setText("なし")
+            if(button7.text == "")
+                button7.setText("")
             else{
-                button7.setText("なし")
+                button7.setText("")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "なし")
-                button8.setText("なし")
+            if(button8.text == "")
+                button8.setText("")
             else{
-                button8.setText("なし")
+                button8.setText("")
             }
         }
-        button9.setOnClickListener {
-            if(button9.text == "")
-                button9.setText("")
-            else{
-                button9.setText("")
-            }
-        }
-        button10.setOnClickListener {
-            if(button10.text == "")
-                button10.setText("")
-            else{
-                button10.setText("")
-            }
-        }
-        button11.setOnClickListener {
-            if(button11.text == "")
-                button11.setText("")
-            else{
-                button11.setText("")
-            }
-        }
-        button12.setOnClickListener {
-            if(button12.text == "")
-                button12.setText("")
-            else{
-                button12.setText("")
-            }
-        }
-        button13.setOnClickListener {
-            if(button13.text == "")
-                button13.setText("")
-            else{
-                button13.setText("")
-            }
-        }
-        button14.setOnClickListener {
-            if(button14.text == "")
-                button14.setText("")
-            else{
-                button14.setText("")
-            }
-        }
-        button15.setOnClickListener {
-            if(button15.text == "")
-                button15.setText("")
-            else{
-                button15.setText("")
-            }
-        }
-        button16.setOnClickListener {
-            if(button16.text == "")
-                button16.setText("")
-            else{
-                button16.setText("")
-            }
-        }
+
 
         val preferences = PreferenceManager.getDefaultSharedPreferences(activity)
         val editor = preferences.edit()
@@ -308,149 +253,7 @@ class Fragment1_14 : Fragment() {
             flag8 = false
         }
 
-        checkbox_blank9.setOnClickListener{
-            if(flag9 == true){
-                checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
-                flag9 = false
-                editor.putBoolean("CHECK217",flag9)
-                editor.commit()
-            }else{
-                checkbox_blank9.setImageResource(R.drawable.ic_checkbox_blank)
-                flag9 = true
-                editor.putBoolean("CHECK217",flag9)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK217",true) == false ){
-            checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
-            flag9 = false
-        }
 
-        checkbox_blank10.setOnClickListener{
-            if(flag10 == true){
-                checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
-                flag10 = false
-                editor.putBoolean("CHECK218",flag10)
-                editor.commit()
-            }else{
-                checkbox_blank10.setImageResource(R.drawable.ic_checkbox_blank)
-                flag10 = true
-                editor.putBoolean("CHECK218",flag10)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK218",true) == false ){
-            checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
-            flag10 = false
-        }
-
-        checkbox_blank11.setOnClickListener{
-            if(flag11 == true){
-                checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
-                flag11 = false
-                editor.putBoolean("CHECK219",flag11)
-                editor.commit()
-            }else{
-                checkbox_blank11.setImageResource(R.drawable.ic_checkbox_blank)
-                flag11 = true
-                editor.putBoolean("CHECK219",flag11)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK219",true) == false ){
-            checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
-            flag11 = false
-        }
-
-        checkbox_blank12.setOnClickListener{
-            if(flag12 == true){
-                checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
-                flag12 = false
-                editor.putBoolean("CHECK220",flag12)
-                editor.commit()
-            }else{
-                checkbox_blank12.setImageResource(R.drawable.ic_checkbox_blank)
-                flag12 = true
-                editor.putBoolean("CHECK220",flag12)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK220",true) == false ){
-            checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
-            flag12 = false
-        }
-
-        checkbox_blank13.setOnClickListener{
-            if(flag13 == true){
-                checkbox_blank13.setImageResource(R.drawable.ic_checkbox_check)
-                flag13= false
-                editor.putBoolean("CHECK221",flag13)
-                editor.commit()
-            }else{
-                checkbox_blank13.setImageResource(R.drawable.ic_checkbox_blank)
-                flag13= true
-                editor.putBoolean("CHECK221",flag13)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK221",true) == false ){
-            checkbox_blank13.setImageResource(R.drawable.ic_checkbox_check)
-            flag13 = false
-        }
-
-        checkbox_blank14.setOnClickListener{
-            if(flag14 == true){
-                checkbox_blank14.setImageResource(R.drawable.ic_checkbox_check)
-                flag14 = false
-                editor.putBoolean("CHECK222",flag14)
-                editor.commit()
-            }else{
-                checkbox_blank14.setImageResource(R.drawable.ic_checkbox_blank)
-                flag14 = true
-                editor.putBoolean("CHECK222",flag14)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK222",true) == false ){
-            checkbox_blank14.setImageResource(R.drawable.ic_checkbox_check)
-            flag14 = false
-        }
-
-        checkbox_blank15.setOnClickListener{
-            if(flag15 == true){
-                checkbox_blank15.setImageResource(R.drawable.ic_checkbox_check)
-                flag15 = false
-                editor.putBoolean("CHECK223",flag15)
-                editor.commit()
-            }else{
-                checkbox_blank15.setImageResource(R.drawable.ic_checkbox_blank)
-                flag15 = true
-                editor.putBoolean("CHECK223",flag15)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK223",true) == false ){
-            checkbox_blank15.setImageResource(R.drawable.ic_checkbox_check)
-            flag15 = false
-        }
-
-        checkbox_blank16.setOnClickListener{
-            if(flag16 == true){
-                checkbox_blank16.setImageResource(R.drawable.ic_checkbox_check)
-                flag16 = false
-                editor.putBoolean("CHECK224",flag16)
-                editor.commit()
-            }else{
-                checkbox_blank16.setImageResource(R.drawable.ic_checkbox_blank)
-                flag16 = true
-                editor.putBoolean("CHECK224",flag16)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK224",true) == false ){
-            checkbox_blank16.setImageResource(R.drawable.ic_checkbox_check)
-            flag16 = false
-        }
 
         view.findViewById<ImageView>(R.id.button_back).setOnClickListener {
             findNavController().navigate(R.id.action_Fragment1_14_to_Fragment1_13)

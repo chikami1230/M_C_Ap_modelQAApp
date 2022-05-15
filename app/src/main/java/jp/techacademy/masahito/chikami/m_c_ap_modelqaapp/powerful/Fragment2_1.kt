@@ -76,62 +76,36 @@ class Fragment2_1 : Fragment() {
                 button4.setText("アトモキセチンカプセル25")
             }
         }
+
         button5.setOnClickListener {
-            if(button5.text == "")
-                button5.setText("")
+            if(button5.text == "アマルエット1番")
+                button5.setText("アムロジピン＋アトルバスタチン")
             else{
-                button5.setText("")
+                button5.setText("アマルエット1番")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "")
-                button6.setText("")
+            if(button6.text == "アマルエット2番")
+                button6.setText("アムロジピン＋アトルバスタチン")
             else{
-                button6.setText("")
+                button6.setText("アマルエット2番")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "アマルエット1番")
+            if(button7.text == "アマルエット3番")
                 button7.setText("アムロジピン＋アトルバスタチン")
             else{
-                button7.setText("アマルエット1番")
+                button7.setText("アマルエット3番")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "アマルエット2番")
+            if(button8.text == "アマルエット4番")
                 button8.setText("アムロジピン＋アトルバスタチン")
             else{
-                button8.setText("アマルエット2番")
+                button8.setText("アマルエット4番")
             }
         }
-        button9.setOnClickListener {
-            if(button9.text == "アマルエット3番")
-                button9.setText("アムロジピン＋アトルバスタチン")
-            else{
-                button9.setText("アマルエット3番")
-            }
-        }
-        button10.setOnClickListener {
-            if(button10.text == "アマルエット4番")
-                button10.setText("")
-            else{
-                button10.setText("アマルエット4番")
-            }
-        }
-        button11.setOnClickListener {
-            if(button11.text == "アプリンジンカプセル")
-                button11.setText("アムロジピン＋アトルバスタチン")
-            else{
-                button11.setText("アプリンジンカプセル")
-            }
-        }
-        button12.setOnClickListener {
-            if(button12.text == "")
-                button12.setText("")
-            else{
-                button12.setText("")
-            }
-        }
+
 
 
 
@@ -288,77 +262,9 @@ class Fragment2_1 : Fragment() {
             flag8 = false
         }
 
-        checkbox_blank9.setOnClickListener{
-            if(flag9 == true){
-                checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
-                flag9 = false
-                editor.putBoolean("CHECK2109",flag9)
-                editor.commit()
-            }else{
-                checkbox_blank9.setImageResource(R.drawable.ic_checkbox_blank)
-                flag9 = true
-                editor.putBoolean("CHECK2109",flag9)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2109",true) == false ){
-            checkbox_blank9.setImageResource(R.drawable.ic_checkbox_check)
-            flag9 = false
-        }
 
-        checkbox_blank10.setOnClickListener{
-            if(flag10 == true){
-                checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
-                flag10 = false
-                editor.putBoolean("CHECK2110",flag10)
-                editor.commit()
-            }else{
-                checkbox_blank10.setImageResource(R.drawable.ic_checkbox_blank)
-                flag10 = true
-                editor.putBoolean("CHECK2110",flag10)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2110",true) == false ){
-            checkbox_blank10.setImageResource(R.drawable.ic_checkbox_check)
-            flag10 = false
-        }
 
-        checkbox_blank11.setOnClickListener{
-            if(flag11 == true){
-                checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
-                flag11 = false
-                editor.putBoolean("CHECK2111",flag11)
-                editor.commit()
-            }else{
-                checkbox_blank11.setImageResource(R.drawable.ic_checkbox_blank)
-                flag11 = true
-                editor.putBoolean("CHECK2111",flag11)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2111",true) == false ){
-            checkbox_blank11.setImageResource(R.drawable.ic_checkbox_check)
-            flag11 = false
-        }
 
-        checkbox_blank12.setOnClickListener{
-            if(flag12 == true){
-                checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
-                flag12 = false
-                editor.putBoolean("CHECK2112",flag12)
-                editor.commit()
-            }else{
-                checkbox_blank12.setImageResource(R.drawable.ic_checkbox_blank)
-                flag12 = true
-                editor.putBoolean("CHECK2112",flag12)
-                editor.commit()
-            }
-        }
-        if(preferences.getBoolean("CHECK2112",true) == false ){
-            checkbox_blank12.setImageResource(R.drawable.ic_checkbox_check)
-            flag12 = false
-        }
 
 
         view.findViewById<ImageView>(R.id.button_next).setOnClickListener {
