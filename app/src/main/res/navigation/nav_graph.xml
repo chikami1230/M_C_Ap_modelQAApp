@@ -671,15 +671,14 @@
             app:destination="@id/Fragment8_3" />
     </fragment>
 
+    <fragment
+        android:id="@+id/nav_about_this_app"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.Fragment00"
+        android:label="@string/fragment00_label"
+        tools:layout="@layout/fragment00">
 
 
-
-
-
-
-
-
-
+    </fragment>
 
 
 
@@ -712,6 +711,9 @@
         <action
             android:id="@+id/action_move_Fragment8_1"
             app:destination="@id/nav_psychotropic" />
+        <action
+            android:id="@+id/action_move_Fragment00"
+            app:destination="@id/nav_about_this_app" />
 
 
     </fragment>

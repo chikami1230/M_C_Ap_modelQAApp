@@ -28,5 +28,10 @@
             android:id="@+id/nav_kyuunyuu"
             android:title="@string/menu_inhalant_label"/>
 
+        <item
+            android:id="@+id/nav_about_this_app"
+            android:title="@string/menu_about_this_app"/>
+
+
     </group>
 </menu>

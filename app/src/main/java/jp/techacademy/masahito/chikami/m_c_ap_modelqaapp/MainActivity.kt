@@ -72,7 +72,8 @@ class MainActivity() : AppCompatActivity(){
                 R.id.Fragment5_5,R.id.Fragment5_6,
                 R.id.nav_megusuri,R.id.Fragment6_1,R.id.Fragment6_2,R.id.Fragment6_3,R.id.Fragment6_4,
                 R.id.nav_powder,R.id.Fragment7_1,R.id.Fragment7_2,R.id.Fragment7_3,R.id.Fragment7_4,
-                R.id.nav_kyuunyuu,R.id.Fragment8_1,R.id.Fragment8_2,R.id.Fragment8_3,R.id.Fragment8_4
+                R.id.nav_kyuunyuu,R.id.Fragment8_1,R.id.Fragment8_2,R.id.Fragment8_3,R.id.Fragment8_4,
+                R.id.nav_about_this_app
 
 
             ), drawerLayout
