@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Fragment3_1" type="id" />
+    <item name="Fragment4_1" type="id" />
+    <item name="Fragment4_2" type="id" />
+    <item name="Fragment4_3" type="id" />
+    <item name="Fragment5_1" type="id" />
+    <item name="Fragment5_2" type="id" />
+    <item name="Fragment5_3" type="id" />
+    <item name="Fragment5_4" type="id" />
+    <item name="Fragment6_1" type="id" />
+    <item name="Fragment6_2" type="id" />
+    <item name="Fragment6_3" type="id" />
+    <item name="Fragment6_4" type="id" />
+    <item name="Fragment7_1" type="id" />
+    <item name="Fragment8_1" type="id" />
+    <item name="Fragment8_2" type="id" />
+    <item name="Fragment8_3" type="id" />
+    <item name="Fragment2_10" type="id" />
+    <item name="Fragment2_11" type="id" />
+    <item name="Fragment2_12" type="id" />
+    <item name="Fragment2_13" type="id" />
+    <item name="Fragment2_14" type="id" />
+</resources>
