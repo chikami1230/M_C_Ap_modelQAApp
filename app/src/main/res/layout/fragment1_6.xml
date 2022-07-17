@@ -86,14 +86,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="セルベックス50"
+            android:text="セルベックス®50"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="セレキノン100"
+            android:text="セレキノン®100"
             android:id="@+id/button2"/>
 
         <Button
@@ -114,28 +114,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="タケキャブ10"
+            android:text="タケキャブ®10"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="タケキャブ20"
+            android:text="タケキャブ®20"
             android:id="@+id/button6"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="タケルダ配合錠"
+            android:text="タケルダ®配合錠"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="タケプロンOD15"
+            android:text="タケプロン®OD15"
             android:id="@+id/button8"/>
 
 
@@ -212,7 +212,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="タベジール1"
+            android:text="タベジール®1"
             android:id="@+id/button9"/>
 
         <Button
@@ -226,14 +226,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ディオバン40"
+            android:text="ディオバン®40"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="テオフィリン徐放錠100"
+            android:text="テオフィリン®徐放錠100"
             android:id="@+id/button12"/>
 
         <Button
@@ -247,7 +247,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="テネリア20"
+            android:text="テネリア®20"
             android:id="@+id/button14"/>
 
         <Button
@@ -261,7 +261,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="デベルザ20"
+            android:text="デベルザ®20"
             android:id="@+id/button16"/>
 
 

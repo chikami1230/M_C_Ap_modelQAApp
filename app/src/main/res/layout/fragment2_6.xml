@@ -84,14 +84,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ザグラスLD"
+            android:text="ザグラス®LD"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="サンリズムカプセル50"
+            android:text="サンリズム®カプセル50"
             android:id="@+id/button2"/>
 
         <Button
@@ -113,28 +113,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="シベノール100"
+            android:text="シベノール®100"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="シュアポスト0.25"
+            android:text="シュアポスト®0.25"
             android:id="@+id/button6"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="シュアポスト0.5"
+            android:text="シュアポスト®0.5"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ストラテラカプセル25"
+            android:text="ストラテラ®カプセル25"
             android:id="@+id/button8"/>
 
 

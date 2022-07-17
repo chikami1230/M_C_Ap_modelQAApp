@@ -85,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リポバス5"
+            android:text="リポバス®5"
             android:id="@+id/button1"/>
 
         <Button
@@ -100,20 +100,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リリカOD錠25" />
+            android:text="リリカ®OD錠25" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リリカカプセル75"
+            android:text="リリカ®カプセル75"
             android:id="@+id/button4"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="レザルタスHD"
+            android:text="レザルタス®HD"
             android:id="@+id/button5"/>
 
         <Button
@@ -209,14 +209,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ロキソニン60"
+            android:text="ロキソニン®60"
             android:id="@+id/button9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ロゼレム8"
+            android:text="ロゼレム®8"
             android:id="@+id/button10"/>
 
         <Button

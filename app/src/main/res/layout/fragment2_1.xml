@@ -90,14 +90,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アダラートL10" />
+                android:text="アダラート®L10" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アダラートカプセル5mg" />
+                android:text="アダラート®カプセル5mg" />
 
             <Button
                 android:id="@+id/button3"
@@ -118,30 +118,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アマルエット1番" />
+                android:text="アマルエット®1番" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アマルエット2番" />
+                android:text="アマルエット®2番" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アマルエット3番" />
+                android:text="アマルエット®3番" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アマルエット4番" />
-
-
+                android:text="アマルエット®4番" />
 
         </LinearLayout>
 

@@ -83,14 +83,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アンテベートローション"
+                android:text="アンテベート®ローション"
                 android:id="@+id/button1"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アンテベート軟膏"
+                android:text="アンテベート®軟膏"
                 android:id="@+id/button2"/>
 
             <Button
@@ -111,28 +111,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="プロトピック軟膏"
+                android:text="プロトピック®軟膏"
                 android:id="@+id/button5"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="トプシムクリーム"
+                android:text="トプシム®クリーム"
                 android:id="@+id/button6"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="メサデルムクリーム"
+                android:text="メサデルム®クリーム"
                 android:id="@+id/button7"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="トプシムスプレー"
+                android:text="トプシム®スプレー"
                 android:id="@+id/button8"/>
         </LinearLayout>
 

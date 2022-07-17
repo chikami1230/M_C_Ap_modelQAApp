@@ -94,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="シダキュア5000"
+            android:text="シダキュア®5000"
             android:id="@+id/button2"/>
 
         <Button
@@ -108,7 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ジャディアンス10"
+            android:text="ジャディアンス®10"
             android:id="@+id/button4"/>
 
         <Button
@@ -212,14 +212,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="シングレア10"
+            android:text="シングレア®10"
             android:id="@+id/button9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="スイニー100"
+            android:text="スイニー®100"
             android:id="@+id/button10"/>
 
         <Button
@@ -247,14 +247,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="セイブル50"
+            android:text="セイブル®50"
             android:id="@+id/button14"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ゼチーア10"
+            android:text="ゼチーア®10"
             android:id="@+id/button15"/>
 
         <Button

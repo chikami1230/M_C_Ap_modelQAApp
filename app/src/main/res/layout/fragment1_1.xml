@@ -83,28 +83,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アジルバ10"
+            android:text="アジルバ®10"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アジルバ20"
+            android:text="アジルバ®20"
             android:id="@+id/button2"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アジルバ40"
+            android:text="アジルバ®40"
             android:id="@+id/button3"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アスベリン20"
+            android:text="アスベリン®20"
             android:id="@+id/button4"/>
 
         <Button
@@ -221,14 +221,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトーゼットLD"
+            android:text="アトーゼット®LD"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アトーゼットHD"
+            android:text="アトーゼット®HD"
             android:id="@+id/button12"/>
 
         <Button
@@ -249,7 +249,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アリナミンF25"
+            android:text="アリナミン®F25"
             android:id="@+id/button15"/>
 
         <Button

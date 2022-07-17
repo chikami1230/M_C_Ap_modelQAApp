@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="メジコン15"
+            android:text="メジコン®15"
             android:id="@+id/button1"/>
 
         <Button
@@ -219,42 +219,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リオベルHD"
+            android:text="リオベル®HD"
             android:id="@+id/button10"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リオベルLD"
+            android:text="リオベル®LD"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リバロ1"
+            android:text="リバロ®1"
             android:id="@+id/button12"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リバロ2"
+            android:text="リバロ®2"
             android:id="@+id/button13"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リピトール5"
+            android:text="リピトール®5"
             android:id="@+id/button14"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="リピトール10"
+            android:text="リピトール®10"
             android:id="@+id/button15"/>
 
         <Button

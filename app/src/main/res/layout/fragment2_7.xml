@@ -83,56 +83,56 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="ストラテラカプセル40"
+        android:text="ストラテラ®カプセル40"
         android:id="@+id/button1"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="セレクトール100"
+        android:text="セレクトール®100"
         android:id="@+id/button2"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="セレクトール200"
+        android:text="セレクトール®200"
         android:id="@+id/button3"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="セレコックス100"
+        android:text="セレコックス®100"
         android:id="@+id/button4"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="ソニアス配合錠LD"
+        android:text="ソニアス®配合錠LD"
         android:id="@+id/button5"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="ゾーミックRM2.5"
+        android:text="ゾーミック®RM2.5"
         android:id="@+id/button6"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="チャンピックス錠スタート用パック"
+        android:text="チャンピックス®錠スタート用パック"
         android:id="@+id/button7"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:text="チャンピックス1mg"
+        android:text="チャンピックス®1mg"
         android:id="@+id/button8"/>
 
 

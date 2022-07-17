@@ -87,14 +87,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ベルソムラ20"
+            android:text="ベルソムラ®20"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ペルサンチン25"
+            android:text="ペルサンチン®25"
             android:id="@+id/button2"/>
 
         <Button
@@ -108,28 +108,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ホクナリン錠1mg"
+            android:text="ホクナリン®錠1mg"
             android:id="@+id/button4"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ポドレント配合錠"
+            android:text="ポドレント®配合錠"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="マグミッド500"
+            android:text="マグミッド®500"
             android:id="@+id/button6"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="マックダーゼ配合錠"
+            android:text="マックダーゼ®配合錠"
             android:id="@+id/button7"/>
 
         <Button
@@ -225,42 +225,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ミコンビBP"
+            android:text="ミコンビ®BP"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ミヤBM錠"
+            android:text="ミヤBM®錠"
             android:id="@+id/button12"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ムコスタ100"
+            android:text="ムコスタ®100"
             android:id="@+id/button13"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ムコソルバン15"
+            android:text="ムコソルバン®15"
             android:id="@+id/button14"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ムコダイン500"
+            android:text="ムコダイン®500"
             android:id="@+id/button15"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="メチコバール500"
+            android:text="メチコバール®500"
             android:id="@+id/button16"/>
 
     </LinearLayout>

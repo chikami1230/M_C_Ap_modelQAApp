@@ -91,21 +91,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="トラムセット配合錠"
+            android:text="トラムセット®配合錠"
             android:id="@+id/button2"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ナイキサン100"
+            android:text="ナイキサン®100"
             android:id="@+id/button3"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ニトロペン舌下錠"
+            android:text="ニトロペン®舌下錠"
             android:id="@+id/button4"/>
 
         <Button

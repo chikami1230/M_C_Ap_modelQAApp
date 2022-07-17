@@ -90,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="アリミデックス1"
+            android:text="アリミデックス®1"
             android:id="@+id/button2"/>
 
         <Button
@@ -111,28 +111,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="イニシンク配合錠"
+            android:text="イニシンク®配合錠"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="イルアミクスHD"
+            android:text="イルアミクス®HD"
             android:id="@+id/button6"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="イルアミクスLD"
+            android:text="イルアミクス®LD"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="エックスフォージ配合錠"
+            android:text="エックスフォージ®配合錠"
             android:id="@+id/button8"/>
 
 

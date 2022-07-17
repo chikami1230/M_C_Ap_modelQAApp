@@ -87,21 +87,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フォシーガ5"
+            android:text="フォシーガ®5"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フェブリク10"
+            android:text="フェブリク®10"
             android:id="@+id/button2"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フェブリク20"
+            android:text="フェブリク®20"
             android:id="@+id/button3"/>
 
         <Button
@@ -115,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フラベリック20"
+            android:text="フラベリック®20"
             android:id="@+id/button5"/>
 
         <Button
@@ -136,7 +136,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="プレドニン5"
+            android:text="プレドニン®5"
             android:id="@+id/button8"/>
 
 
@@ -212,14 +212,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ベザフィブラートSR200"
+            android:text="ベザフィブラート®SR200"
             android:id="@+id/button9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ベシケアOD5"
+            android:text="ベシケア®OD5"
             android:id="@+id/button10"/>
 
         <Button
@@ -254,7 +254,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ペルジピン20"
+            android:text="ペルジピン®20"
             android:id="@+id/button15"/>
 
         <Button

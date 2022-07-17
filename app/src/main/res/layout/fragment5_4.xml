@@ -83,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="マイザー軟膏"
+                android:text="マイザー®軟膏"
                 android:id="@+id/button1"/>
 
             <Button
@@ -97,14 +97,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="リンデロンVG軟膏"
+                android:text="リンデロン®VG軟膏"
                 android:id="@+id/button3"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="リンデロンVGクリーム"
+                android:text="リンデロン®VGクリーム"
                 android:id="@+id/button4"/>
 
             <Button
@@ -118,14 +118,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="ロコイド軟膏"
+                android:text="ロコイド®軟膏"
                 android:id="@+id/button6"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="ロコイドクリーム"
+                android:text="ロコイド®クリーム"
                 android:id="@+id/button7"/>
 
             <Button

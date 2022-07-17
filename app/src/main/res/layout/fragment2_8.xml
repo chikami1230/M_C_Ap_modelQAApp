@@ -83,21 +83,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="チラーヂンS25"
+            android:text="チラーヂン®S25"
             android:id="@+id/button1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="チラーヂンS50"
+            android:text="チラーヂン®S50"
             android:id="@+id/button2"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ディレグラ配合錠"
+            android:text="ディレグラ®配合錠"
             android:id="@+id/button3"/>
 
         <Button
@@ -111,21 +111,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="テオロング200"
+            android:text="テオロング®200"
             android:id="@+id/button5"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="デジレル"
+            android:text="デジレル®"
             android:id="@+id/button6"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="テラムロ配合錠AP"
+            android:text="テラムロ®配合錠AP"
             android:id="@+id/button7"/>
 
         <Button

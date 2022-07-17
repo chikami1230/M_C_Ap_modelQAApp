@@ -85,14 +85,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アレジオン10" />
+                android:text="アレジオン®10" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="アレジオン20" />
+                android:text="アレジオン®20" />
 
             <Button
                 android:id="@+id/button3"
@@ -113,14 +113,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="イグザレルト10" />
+                android:text="イグザレルト®10" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="イグザレルト15" />
+                android:text="イグザレルト®15" />
 
             <Button
                 android:id="@+id/button7"
@@ -236,14 +236,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="ウリアデック40"
+                android:text="ウリアデック®40"
                 android:id="@+id/button13"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="ウルソ100"
+                android:text="ウルソ®100"
                 android:id="@+id/button14"/>
 
             <Button
@@ -256,7 +256,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="エクア"
+                android:text="エクア®"
                 android:id="@+id/button16"/>
 
 

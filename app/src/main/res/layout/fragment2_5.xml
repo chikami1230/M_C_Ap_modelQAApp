@@ -112,7 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="コニール2"
+            android:text="コニール®2"
             android:id="@+id/button5"/>
 
         <Button
@@ -127,14 +127,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="サインバルタカプセル20"
+            android:text="サインバルタ®カプセル20"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ザグラスHD"
+            android:text="ザグラス®HD"
             android:id="@+id/button8"/>
 
 

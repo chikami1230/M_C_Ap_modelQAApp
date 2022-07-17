@@ -108,7 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="デルギンG１"
+            android:text="デルギン®G１"
             android:id="@+id/button4"/>
 
         <Button
@@ -129,14 +129,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ドグマチール50"
+            android:text="ドグマチール®50"
             android:id="@+id/button7"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ナトリックス1"
+            android:text="ナトリックス®1"
             android:id="@+id/button8"/>
 
 
@@ -220,14 +220,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="トラゼンタ5"
+            android:text="トラゼンタ®5"
             android:id="@+id/button10"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="トラディアンスAP"
+            android:text="トラディアンス®AP"
             android:id="@+id/button11"/>
 
         <Button
@@ -248,7 +248,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="トランサミン250"
+            android:text="トランサミン®250"
             android:id="@+id/button14"/>
 
         <Button
@@ -262,7 +262,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ナトリックス1"
+            android:text="ナトリックス®1"
             android:id="@+id/button16"/>
 
 
