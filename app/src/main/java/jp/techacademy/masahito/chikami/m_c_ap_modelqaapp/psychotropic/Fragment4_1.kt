@@ -49,18 +49,18 @@ class Fragment4_1 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "マイスリー5mg")
+            if (button1.text == "マイスリー®5mg")
                 button1.setText("ゾルピデム")
             else {
-                button1.setText("マイスリー5mg")
+                button1.setText("マイスリー®5mg")
             }
         }
 
         button2.setOnClickListener {
-            if (button2.text == "マイスリー10mg")
+            if (button2.text == "マイスリー®10mg")
                 button2.setText("ゾルピデム")
             else {
-                button2.setText("マイスリー10mg")
+                button2.setText("マイスリー®10mg")
             }
         }
         button3.setOnClickListener {
@@ -85,25 +85,25 @@ class Fragment4_1 : Fragment() {
             }
         }
         button6.setOnClickListener {
-            if (button6.text == "ハルシオン0.25mg")
+            if (button6.text == "ハルシオン®0.25mg")
                 button6.setText("トリアゾラム")
             else {
-                button6.setText("ハルシオン0.25mg")
+                button6.setText("ハルシオン®0.25mg")
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "デパス0.5mg")
+            if (button7.text == "デパス®0.5mg")
                 button7.setText("エチゾラム")
             else {
-                button7.setText("デパス0.5mg")
+                button7.setText("デパス®0.5mg")
             }
         }
 
         button8.setOnClickListener {
-            if (button8.text == "デパス0.5mg")
+            if (button8.text == "デパス®0.5mg")
                 button8.setText("エチゾラム")
             else {
-                button8.setText("デパス0.5mg")
+                button8.setText("デパス®0.5mg")
             }
         }
         button9.setOnClickListener {
@@ -129,18 +129,18 @@ class Fragment4_1 : Fragment() {
         }
 
         button12.setOnClickListener {
-            if (button12.text == "レンドルミンD錠")
+            if (button12.text == "レンドルミン®D錠")
                 button12.setText("ブロチゾラム")
             else {
-                button12.setText("レンドルミンD錠")
+                button12.setText("レンドルミン®D錠")
             }
         }
 
         button13.setOnClickListener {
-            if (button13.text == "リーゼ5mg")
+            if (button13.text == "リーゼ®5mg")
                 button13.setText("クロチアゼパム")
             else {
-                button13.setText("リーゼ5mg")
+                button13.setText("リーゼ®5mg")
             }
         }
         button14.setOnClickListener {

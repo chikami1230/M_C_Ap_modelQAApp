@@ -55,17 +55,17 @@ class Fragment5_6 : Fragment() {
             }
         }
         button2.setOnClickListener {
-            if( button2.text == "ミオコールスプレー0.3mg")
+            if (button2.text == "ミオコール®スプレー0.3mg")
                 button2.setText("ニトログリセリン")
-            else{
-                button2.setText("ミオコールスプレー0.3mg")
+            else {
+                button2.setText("ミオコール®スプレー0.3mg")
             }
         }
         button3.setOnClickListener {
-            if( button3.text == "プロトッピック軟膏小児用")
+            if (button3.text == "プロトピック®軟膏小児用")
                 button3.setText("タクロリムス")
-            else{
-                button3.setText("プロトッピック軟膏小児用")
+            else {
+                button3.setText("プロトピック®軟膏小児用")
             }
         }
         button4.setOnClickListener {

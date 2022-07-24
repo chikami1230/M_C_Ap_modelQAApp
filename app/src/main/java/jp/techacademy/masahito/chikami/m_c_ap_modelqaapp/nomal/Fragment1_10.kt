@@ -44,25 +44,25 @@ class Fragment1_10 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "フォシーガ5")
+            if (button1.text == "フォシーガ®5")
                 button1.setText("ダパグリフロジン")
-            else{
-                button1.setText("フォシーガ5")
+            else {
+                button1.setText("フォシーガ®5")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "フェブリク10")
+            if (button2.text == "フェブリク®10")
                 button2.setText("フェブキソスタット")
-            else{
-                button2.setText("フェブリク10")
+            else {
+                button2.setText("フェブリク®10")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "フェブリク20")
+            if (button3.text == "フェブリク®20")
                 button3.setText("フェブキソスタット")
-            else{
-                button3.setText("フェブリク20")
+            else {
+                button3.setText("フェブリク®20")
             }
         }
         button4.setOnClickListener {
@@ -73,10 +73,10 @@ class Fragment1_10 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "フラベリック20")
+            if (button5.text == "フラベリック®20")
                 button5.setText("フラベリック")
-            else{
-                button5.setText("フラベリック20")
+            else {
+                button5.setText("フラベリック®20")
             }
         }
         button6.setOnClickListener {
@@ -94,10 +94,10 @@ class Fragment1_10 : Fragment() {
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "プレドニン5")
+            if (button8.text == "プレドニン®5")
                 button8.setText("プレドニゾロン")
-            else{
-                button8.setText("プレドニン5")
+            else {
+                button8.setText("プレドニン®5")
             }
         }
         button9.setOnClickListener {
@@ -108,10 +108,10 @@ class Fragment1_10 : Fragment() {
             }
         }
         button10.setOnClickListener {
-            if(button10.text == "ベシケアOD5")
+            if (button10.text == "ベシケア®OD5")
                 button10.setText("ソリフェナシン")
-            else{
-                button10.setText("ベシケアOD5")
+            else {
+                button10.setText("ベシケア®OD5")
             }
         }
         button11.setOnClickListener {
@@ -143,17 +143,17 @@ class Fragment1_10 : Fragment() {
             }
         }
         button15.setOnClickListener {
-            if(button15.text == "ペルジピン20")
+            if (button15.text == "ペルジピン®20")
                 button15.setText("ニカルジピン")
-            else{
-                button15.setText("ペルジピン20")
+            else {
+                button15.setText("ペルジピン®20")
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "ベルソムラ15")
+            if (button16.text == "ベルソムラ®15")
                 button16.setText("スボレキサント")
-            else{
-                button16.setText("ベルソムラ15")
+            else {
+                button16.setText("ベルソムラ®15")
             }
         }
 

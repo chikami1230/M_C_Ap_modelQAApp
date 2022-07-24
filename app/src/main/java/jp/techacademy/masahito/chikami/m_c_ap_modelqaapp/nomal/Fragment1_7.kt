@@ -66,10 +66,10 @@ class Fragment1_7 : Fragment() {
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "デルギンG１")
+            if (button4.text == "デルギン®G１")
                 button4.setText("クレマスチン")
-            else{
-                button4.setText("デルギンG１")
+            else {
+                button4.setText("デルギン®G１")
             }
         }
         button5.setOnClickListener {
@@ -87,17 +87,17 @@ class Fragment1_7 : Fragment() {
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "ドグマチール50")
+            if (button7.text == "ドグマチール®50")
                 button7.setText("スルピリド")
-            else{
-                button7.setText("ドグマチール50")
+            else {
+                button7.setText("ドグマチール®50")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "ナトリックス1")
+            if (button8.text == "ナトリックス®1")
                 button8.setText("インダパミド")
-            else{
-                button8.setText("ナトリックス1")
+            else {
+                button8.setText("ナトリックス®1")
             }
         }
         button9.setOnClickListener {
@@ -108,17 +108,17 @@ class Fragment1_7 : Fragment() {
             }
         }
         button10.setOnClickListener {
-            if(button10.text == "トラゼンタ5")
+            if (button10.text == "トラゼンタ®5")
                 button10.setText("リナグリプチン")
-            else{
-                button10.setText("トラゼンタ5")
+            else {
+                button10.setText("トラゼンタ®5")
             }
         }
         button11.setOnClickListener {
-            if(button11.text == "トラディアンスAP")
+            if (button11.text == "トラディアンス®AP")
                 button11.setText("エンパグリフロジン＋リナグリプチン")
-            else{
-                button11.setText("トラディアンスAP")
+            else {
+                button11.setText("トラディアンス®AP")
             }
         }
         button12.setOnClickListener {
@@ -136,10 +136,10 @@ class Fragment1_7 : Fragment() {
             }
         }
         button14.setOnClickListener {
-            if(button14.text == "トランサミン250")
+            if (button14.text == "トランサミン®250")
                 button14.setText("トラネキサム酸")
-            else{
-                button14.setText("トランサミン250")
+            else {
+                button14.setText("トランサミン®250")
             }
         }
         button15.setOnClickListener {
@@ -150,10 +150,10 @@ class Fragment1_7 : Fragment() {
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "ナトリックス1")
+            if (button16.text == "ナトリックス®1")
                 button16.setText("インダパミド")
-            else{
-                button16.setText("ナトリックス1")
+            else {
+                button16.setText("ナトリックス®1")
             }
         }
 

@@ -80,24 +80,24 @@ class Fragment1_9 : Fragment() {
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "ビタメジンB25")
+            if (button6.text == "ビタメジン®B25")
                 button6.setText("ベンフォチアミン,VB6,VB12")
-            else{
-                button6.setText("ビタメジンB25")
+            else {
+                button6.setText("ビタメジン®B25")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "ビラノア20")
+            if (button7.text == "ビラノア®20")
                 button7.setText("ビラスチン")
-            else{
-                button7.setText("ビラノア20")
+            else {
+                button7.setText("ビラノア®20")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "輪ゴム中")
-                button8.setText("輪ゴム中")
-            else{
-                button8.setText("輪ゴム中")
+            if (button8.text == "")
+                button8.setText("")
+            else {
+                button8.setText("")
             }
         }
         button9.setOnClickListener {
@@ -129,10 +129,10 @@ class Fragment1_9 : Fragment() {
             }
         }
         button13.setOnClickListener {
-            if(button13.text == "フェロミア50")
+            if (button13.text == "フェロミア®50")
                 button13.setText("クエン酸第一鉄Na")
-            else{
-                button13.setText("フェロミア50")
+            else {
+                button13.setText("フェロミア®50")
             }
         }
         button14.setOnClickListener {
@@ -143,17 +143,17 @@ class Fragment1_9 : Fragment() {
             }
         }
         button15.setOnClickListener {
-            if(button15.text == "フェロベリン配合錠")
+            if (button15.text == "フェロベリン®配合錠")
                 button15.setText("ベルベリン・ゲンノショウコ")
-            else{
-                button15.setText("フェロベリン配合錠")
+            else {
+                button15.setText("フェロベリン®配合錠")
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "輪ゴム大")
-                button16.setText("輪ゴム大")
-            else{
-                button16.setText("輪ゴム大")
+            if (button16.text == "輪ゴム")
+                button16.setText("輪ゴム")
+            else {
+                button16.setText("輪ゴム")
             }
         }
 

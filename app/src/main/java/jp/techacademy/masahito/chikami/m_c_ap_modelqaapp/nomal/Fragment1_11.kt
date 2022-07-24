@@ -44,18 +44,18 @@ class Fragment1_11 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "ベルソムラ20")
+            if (button1.text == "ベルソムラ®20")
                 button1.setText("スボレキサント")
-            else{
-                button1.setText("ベルソムラ20")
+            else {
+                button1.setText("ベルソムラ®20")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "ペルサンチン25")
+            if (button2.text == "ペルサンチン®25")
                 button2.setText("ジピリダモール")
-            else{
-                button2.setText("ペルサンチン25")
+            else {
+                button2.setText("ペルサンチン®25")
             }
         }
         button3.setOnClickListener {
@@ -66,31 +66,31 @@ class Fragment1_11 : Fragment() {
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "ホクナリン錠1mg")
+            if (button4.text == "ホクナリン®錠1mg")
                 button4.setText("ツロブテロール")
-            else{
-                button4.setText("ホクナリン錠1mg")
+            else {
+                button4.setText("ホクナリン®錠1mg")
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "ポドレント配合錠")
+            if (button5.text == "ポドレント®配合錠")
                 button5.setText("クエン酸K,クエン酸Na")
-            else{
-                button5.setText("ポドレント配合錠")
+            else {
+                button5.setText("ポドレント®配合錠")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "マグミッド500")
+            if (button6.text == "マグミッド®500")
                 button6.setText("酸化マグネシウム")
-            else{
-                button6.setText("マグミッド500")
+            else {
+                button6.setText("マグミッド®500")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "マックダーゼ配合錠")
+            if (button7.text == "マックダーゼ®配合錠")
                 button7.setText("消化酵素製剤")
-            else{
-                button7.setText("マックダーゼ配合錠")
+            else {
+                button7.setText("マックダーゼ®配合錠")
             }
         }
         button8.setOnClickListener {
@@ -115,45 +115,45 @@ class Fragment1_11 : Fragment() {
             }
         }
         button11.setOnClickListener {
-            if(button11.text == "ミコンビBP")
+            if (button11.text == "ミコンビ®BP")
                 button11.setText("テルミサルタン＋ヒドロクロロチアジド")
-            else{
-                button11.setText("ミコンビBP")
+            else {
+                button11.setText("ミコンビ®BP")
             }
         }
         button12.setOnClickListener {
-            if(button12.text == "ミヤBM錠")
+            if (button12.text == "ミヤBM®錠")
                 button12.setText("酪酸菌製剤")
-            else{
-                button12.setText("ミヤBM錠")
+            else {
+                button12.setText("ミヤBM®錠")
             }
         }
         button13.setOnClickListener {
-            if(button13.text == "ムコスタ100")
+            if (button13.text == "ムコスタ®100")
                 button13.setText("レバミピド")
-            else{
-                button13.setText("ムコスタ100")
+            else {
+                button13.setText("ムコスタ®100")
             }
         }
         button14.setOnClickListener {
-            if(button14.text == "ムコソルバン15")
+            if (button14.text == "ムコソルバン®15")
                 button14.setText("アンブロキソール")
-            else{
-                button14.setText("ムコソルバン15")
+            else {
+                button14.setText("ムコソルバン®15")
             }
         }
         button15.setOnClickListener {
-            if(button15.text == "ムコダイン500")
+            if (button15.text == "ムコダイン®500")
                 button15.setText("カルボシステイン")
-            else{
-                button15.setText("ムコダイン500")
+            else {
+                button15.setText("ムコダイン®500")
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "メチコバール500")
+            if (button16.text == "メチコバール®500")
                 button16.setText("メコバラミン")
-            else{
-                button16.setText("メチコバール500")
+            else {
+                button16.setText("メチコバール®500")
             }
         }
 

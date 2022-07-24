@@ -49,53 +49,53 @@ class Fragment6_3 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "フルメトロン点眼液0.1%")
+            if (button1.text == "フルメトロン®点眼液0.1%")
                 button1.setText("フルオロメトロン")
             else {
-                button1.setText("フルメトロン点眼液0.1%")
+                button1.setText("フルメトロン®点眼液0.1%")
             }
         }
 
         button2.setOnClickListener {
-            if (button2.text == "フルメトロン点眼液0.02")
+            if (button2.text == "フルメトロン®点眼液0.02")
                 button2.setText("フルオロメトロン")
             else {
-                button2.setText("フルメトロン点眼液0.02")
+                button2.setText("フルメトロン®点眼液0.02")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "ブロナック点眼液")
+            if (button3.text == "ブロナック®点眼液")
                 button3.setText("ブロムフェナクナトリウム水和物")
             else {
-                button3.setText("ブロナック点眼液")
+                button3.setText("ブロナック®点眼液")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "プロラノン点眼液0.1%")
+            if (button4.text == "プロラノン®点眼液0.1%")
                 button4.setText("プラノプロフェン液")
             else {
-                button4.setText("プロラノン点眼液0.1%")
+                button4.setText("プロラノン®点眼液0.1%")
             }
         }
         button5.setOnClickListener {
-            if (button5.text == "リザベン点眼液0.5%")
+            if (button5.text == "リザベン®点眼液0.5%")
                 button5.setText("トラニラスト")
             else {
-                button5.setText("リザベン点眼液0.5%")
+                button5.setText("リザベン®点眼液0.5%")
             }
         }
         button6.setOnClickListener {
-            if (button6.text == "レボカバスチン点眼液0.025%「TS」")
+            if (button6.text == "レボカバスチン点眼液0.025%")
                 button6.setText("レボカバスチン塩酸塩")
             else {
-                button6.setText("レボカバスチン点眼液0.025%「TS」")
+                button6.setText("レボカバスチン点眼液0.025%")
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "レスキュラ点眼液")
+            if (button7.text == "レスキュラ®点眼液")
                 button7.setText("イソプロピル　ウノプロストン")
             else {
-                button7.setText("レスキュラ点眼液")
+                button7.setText("レスキュラ®点眼液")
             }
         }
         button8.setOnClickListener {

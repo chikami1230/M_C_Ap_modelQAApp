@@ -55,17 +55,17 @@ class Fragment7_2 : Fragment() {
             }
         }
         button2.setOnClickListener {
-            if (button2.text == "ムコサールDS1.5%")
+            if (button2.text == "ムコサール®DS1.5%")
                 button2.setText("アンブルキソール")
             else {
-                button2.setText("ムコサールDS1.5%")
+                button2.setText("ムコサール®DS1.5%")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "ムコダインDS1.5%")
+            if (button3.text == "ムコダイン®DS1.5%")
                 button3.setText("カルボシステイン")
             else {
-                button3.setText("ムコダインDS1.5%")
+                button3.setText("ムコダイン®DS1.5%")
             }
         }
         button4.setOnClickListener {
@@ -91,10 +91,10 @@ class Fragment7_2 : Fragment() {
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "ミヤBM細粒")
+            if (button7.text == "ミヤBM®細粒")
                 button7.setText("酪酸菌")
             else {
-                button7.setText("ミヤBM細粒")
+                button7.setText("ミヤBM®細粒")
             }
         }
         button8.setOnClickListener {

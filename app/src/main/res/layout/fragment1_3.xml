@@ -93,14 +93,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="エピナスチン®10" />
+            android:text="エピナスチン10" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="エピナスチン®20" />
+            android:text="エピナスチン20" />
 
         <Button
             android:id="@+id/button4"

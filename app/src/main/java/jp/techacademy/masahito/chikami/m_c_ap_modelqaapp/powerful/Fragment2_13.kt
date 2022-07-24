@@ -48,17 +48,17 @@ class Fragment2_13 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "メマリーOD20")
+            if (button1.text == "メマリー®OD20")
                 button1.setText("メマンチン")
-            else{
-                button1.setText("メマリーOD20")
+            else {
+                button1.setText("メマリー®OD20")
             }
         }
         button2.setOnClickListener {
-            if(button2.text == "メトアナ配合錠LD")
+            if (button2.text == "メトアナ®配合錠LD")
                 button2.setText("アナグリプチン＋メトホルミン")
-            else{
-                button2.setText("メトアナ配合錠LD")
+            else {
+                button2.setText("メトアナ®配合錠LD")
             }
         }
         button3.setOnClickListener {
@@ -69,38 +69,38 @@ class Fragment2_13 : Fragment() {
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "ラニラピッド0.05")
+            if (button4.text == "ラニラピッド®0.05")
                 button4.setText("メチルジゴキシン")
-            else{
-                button4.setText("ラニラピッド0.05")
+            else {
+                button4.setText("ラニラピッド®0.05")
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "リスモダン100")
+            if (button5.text == "リスモダン®100")
                 button5.setText("ジソピラミド")
-            else{
-                button5.setText("リスモダン100")
+            else {
+                button5.setText("リスモダン®100")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "ユニシア配合錠HD")
+            if (button6.text == "ユニシア®配合錠HD")
                 button6.setText("カンデサルタン＋アムロジピン")
-            else{
-                button6.setText("ユニシア配合錠HD")
+            else {
+                button6.setText("ユニシア®配合錠HD")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "レキサルティ2mg")
+            if (button7.text == "レキサルティ®2mg")
                 button7.setText("ブレクスピラゾール")
-            else{
-                button7.setText("レキサルティ2mg")
+            else {
+                button7.setText("レキサルティ®2mg")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "ワンアルファ1mg")
+            if (button8.text == "ワンアルファ®1mg")
                 button8.setText("アルファカルシフドール")
-            else{
-                button8.setText("ワンアルファ1mg")
+            else {
+                button8.setText("ワンアルファ®1mg")
             }
         }
 

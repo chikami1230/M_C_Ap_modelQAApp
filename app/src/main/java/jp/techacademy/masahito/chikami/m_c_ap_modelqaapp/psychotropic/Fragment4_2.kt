@@ -51,45 +51,45 @@ class Fragment4_2 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "セパゾン2mg")
+            if (button1.text == "セパゾン®2mg")
                 button1.setText("クロキサゾラム")
             else {
-                button1.setText("セパゾン2mg")
+                button1.setText("セパゾン®2mg")
             }
         }
         button2.setOnClickListener {
-            if (button2.text == "ジアパックス2mg")
+            if (button2.text == "ジアパックス®2mg")
                 button2.setText("ジアゼパム")
             else {
-                button2.setText("ジアパックス2mg")
+                button2.setText("ジアパックス®2mg")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "ドーラル15mg")
+            if (button3.text == "ドーラル®15mg")
                 button3.setText("クアゼパム")
             else {
-                button3.setText("ドーラル15mg")
+                button3.setText("ドーラル®15mg")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "ランドセン錠0.5mg")
+            if (button4.text == "ランドセン®錠0.5mg")
                 button4.setText("クロナゼパム")
             else {
-                button4.setText("ランドセン錠0.5mg")
+                button4.setText("ランドセン®錠0.5mg")
             }
         }
         button5.setOnClickListener {
-            if (button5.text == "ランドセン錠1mg")
+            if (button5.text == "ランドセン®錠1mg")
                 button5.setText("クロナゼパム")
             else {
-                button5.setText("ランドセン錠1mg")
+                button5.setText("ランドセン®錠1mg")
             }
         }
         button6.setOnClickListener {
-            if (button6.text == "リボトーリル細粒0.1%")
+            if (button6.text == "リボトーリル®細粒0.1%")
                 button6.setText("クロナゼパム")
             else {
-                button6.setText("リボトーリル細粒0.1%")
+                button6.setText("リボトーリル®細粒0.1%")
             }
         }
         button7.setOnClickListener {

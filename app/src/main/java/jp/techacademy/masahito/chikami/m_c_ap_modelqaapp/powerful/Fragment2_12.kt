@@ -48,10 +48,10 @@ class Fragment2_12 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "ミカムロ配合錠BP")
+            if (button1.text == "ミカムロ®配合錠BP")
                 button1.setText("テルミサルタン＋アムロジピン")
-            else{
-                button1.setText("ミカムロ配合錠BP")
+            else {
+                button1.setText("ミカムロ®配合錠BP")
             }
         }
         button2.setOnClickListener {
@@ -69,10 +69,10 @@ class Fragment2_12 : Fragment() {
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "メトグルコ250")
+            if (button4.text == "メトグルコ®250")
                 button4.setText("メトホルミン")
-            else{
-                button4.setText("メトグルコ250")
+            else {
+                button4.setText("メトグルコ®250")
             }
         }
         button5.setOnClickListener {
@@ -84,24 +84,24 @@ class Fragment2_12 : Fragment() {
         }
 
         button6.setOnClickListener {
-            if(button6.text == "メタクト配合錠LD")
+            if (button6.text == "メタクト®配合錠LD")
                 button6.setText("ピオグリタゾン＋メトホルミン")
-            else{
-                button6.setText("メタクト配合錠LD")
+            else {
+                button6.setText("メタクト®配合錠LD")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "メマリーOD5")
+            if (button7.text == "メマリー®OD5")
                 button7.setText("メマンチン")
-            else{
-                button7.setText("メマリーOD5")
+            else {
+                button7.setText("メマリー®OD5")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "メマリーOD10")
+            if (button8.text == "メマリー®OD10")
                 button8.setText("メマンチン")
-            else{
-                button8.setText("メマリーOD10")
+            else {
+                button8.setText("メマリー®OD10")
             }
         }
 

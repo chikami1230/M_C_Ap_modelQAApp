@@ -49,10 +49,10 @@ class Fragment6_4 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "タプロス点眼液0.0015%")
+            if (button1.text == "タプロス®点眼液0.0015%")
                 button1.setText("タフルプロスト")
             else {
-                button1.setText("タプロス点眼液0.0015%")
+                button1.setText("タプロス®点眼液0.0015%")
             }
         }
 

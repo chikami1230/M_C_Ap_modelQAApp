@@ -48,25 +48,25 @@ class Fragment7_3 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "ビソルボン細粒2%")
+            if (button1.text == "ビソルボン®細粒2%")
                 button1.setText("ブロムヘキシン")
-            else{
-                button1.setText("ビソルボン細粒2%")
+            else {
+                button1.setText("ビソルボン®細粒2%")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "アローゼン顆粒")
+            if (button2.text == "アローゼン®顆粒")
                 button2.setText("センナ・センナ実顆粒")
-            else{
-                button2.setText("アローゼン顆粒")
+            else {
+                button2.setText("アローゼン®顆粒")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "ラックビー微粒N")
+            if (button3.text == "ラックビー®微粒N")
                 button3.setText("ビフィズス菌")
-            else{
-                button3.setText("ラックビー微粒N")
+            else {
+                button3.setText("ラックビー®微粒N")
             }
         }
         button4.setOnClickListener {

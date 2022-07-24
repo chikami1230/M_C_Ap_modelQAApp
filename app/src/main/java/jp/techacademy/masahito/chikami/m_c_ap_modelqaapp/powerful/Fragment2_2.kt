@@ -55,25 +55,25 @@ class Fragment2_2 : Fragment() {
         }
 
         button2.setOnClickListener {
-            if( button2.text == "アボルブ0.5")
+            if (button2.text == "アボルブ®0.5")
                 button2.setText("デュタステリド")
-            else{
-                button2.setText("アボルブ0.5")
+            else {
+                button2.setText("アボルブ®0.5")
             }
         }
 
         button3.setOnClickListener {
-            if( button3.text == "アムロジン5")
+            if (button3.text == "アムロジン®5")
                 button3.setText("アムロジピン")
-            else{
-                button3.setText("アムロジン5")
+            else {
+                button3.setText("アムロジン®5")
             }
         }
         button4.setOnClickListener {
-            if( button4.text == "アムロジン10")
+            if (button4.text == "アムロジン®10")
                 button4.setText("アムロジピン")
-            else{
-                button4.setText("アムロジン10")
+            else {
+                button4.setText("アムロジン®10")
             }
         }
         button5.setOnClickListener {
@@ -84,10 +84,10 @@ class Fragment2_2 : Fragment() {
             }
         }
         button6.setOnClickListener {
-            if( button6.text == "アムバロ配合錠")
+            if (button6.text == "アムバロ®配合錠")
                 button6.setText("バルサルタン＋アムロジピン")
-            else{
-                button6.setText("アムバロ配合錠")
+            else {
+                button6.setText("アムバロ®配合錠")
             }
         }
 

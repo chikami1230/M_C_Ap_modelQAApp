@@ -47,25 +47,25 @@ class Fragment2_8 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "チラーヂンS25")
+            if (button1.text == "チラーヂン®S25")
                 button1.setText("レボチロキシン")
-            else{
-                button1.setText("チラーヂンS25")
+            else {
+                button1.setText("チラーヂン®S25")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "チラーヂンS50")
+            if (button2.text == "チラーヂン®S50")
                 button2.setText("レボチロキシン")
-            else{
-                button2.setText("チラーヂンS50")
+            else {
+                button2.setText("チラーヂン®S50")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "ディレグラ配合錠200")
+            if (button3.text == "ディレグラ®配合錠200")
                 button3.setText("フェキソフェナジン＋エフェドリン")
-            else{
-                button3.setText("ディレグラ配合錠200")
+            else {
+                button3.setText("ディレグラ®配合錠200")
             }
         }
         button4.setOnClickListener {
@@ -76,24 +76,24 @@ class Fragment2_8 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "テオロング200")
+            if (button5.text == "テオロング®200")
                 button5.setText("テオフィリン")
-            else{
-                button5.setText("テオロング200")
+            else {
+                button5.setText("テオロング®200")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "デジレル")
+            if (button6.text == "デジレル®")
                 button6.setText("トラゾドン")
-            else{
-                button6.setText("デジレル")
+            else {
+                button6.setText("デジレル®")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "テラムロ配合錠AP")
+            if (button7.text == "テラムロ®配合錠AP")
                 button7.setText("テルミサルタン＋アムロジピン")
-            else{
-                button7.setText("テラムロ配合錠AP")
+            else {
+                button7.setText("テラムロ®配合錠AP")
             }
         }
         button8.setOnClickListener {

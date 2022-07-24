@@ -42,23 +42,23 @@ class Fragment8_4 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "フルティフォーム125μgエアゾール56吸入用")
+            if (button1.text == "フルティフォーム®125μgエアゾール56吸入用")
                 button1.setText(
                     "フルチカゾンプロピオン酸エステル\n" +
                             "ホルモテロールフマル酸塩水和物"
                 )
             else {
-                button1.setText("フルティフォーム125μgエアゾール56吸入用")
+                button1.setText("フルティフォーム®125μgエアゾール56吸入用")
             }
         }
         button2.setOnClickListener {
-            if (button2.text == "フルティフォーム125μgエアゾール120吸入用")
+            if (button2.text == "フルティフォーム®125μgエアゾール120吸入用")
                 button2.setText(
                     "フルチカゾンプロピオン酸エステル\n" +
                             "ホルモテロールフマル酸塩水和物"
                 )
             else {
-                button2.setText("フルティフォーム125μgエアゾール120吸入用")
+                button2.setText("フルティフォーム®125μgエアゾール120吸入用")
             }
         }
         button3.setOnClickListener {

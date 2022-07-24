@@ -54,17 +54,17 @@ class Fragment2_4 : Fragment() {
             }
         }
         button2.setOnClickListener {
-            if( button2.text == "エクメットHD")
+            if (button2.text == "エクメット®HD")
                 button2.setText("ビルダグリプチン＋メトホルミン")
-            else{
-                button2.setText("エクメットHD")
+            else {
+                button2.setText("エクメット®HD")
             }
         }
         button3.setOnClickListener {
-            if( button3.text == "エクメットLD")
+            if (button3.text == "エクメット®LD")
                 button3.setText("ビルダグリプチン＋メトホルミン")
-            else{
-                button3.setText("エクメットLD")
+            else {
+                button3.setText("エクメット®LD")
             }
         }
         button4.setOnClickListener {
@@ -75,31 +75,31 @@ class Fragment2_4 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if( button5.text == "カムシア配合錠HD")
+            if (button5.text == "カムシア®配合錠HD")
                 button5.setText("カンデサルタン＋アムロジピン")
-            else{
-                button5.setText("カムシア配合錠HD")
+            else {
+                button5.setText("カムシア®配合錠HD")
             }
         }
         button6.setOnClickListener {
-            if( button6.text == "カムシア配合錠LD")
+            if (button6.text == "カムシア®配合錠LD")
                 button6.setText("カンデサルタン＋アムロジピン")
-            else{
-                button6.setText("カムシア配合錠LD")
+            else {
+                button6.setText("カムシア®配合錠LD")
             }
         }
         button7.setOnClickListener {
-            if( button7.text == "カルフィーナ1.0mg")
+            if (button7.text == "カルフィーナ®1.0mg")
                 button7.setText("アルファカルシドール")
-            else{
-                button7.setText("カルフィーナ1.0mg")
+            else {
+                button7.setText("カルフィーナ®1.0mg")
             }
         }
         button8.setOnClickListener {
-            if( button8.text == "カロナール錠500")
+            if (button8.text == "カロナール®錠500")
                 button8.setText("アセトアミノフェン")
-            else{
-                button8.setText("カロナール錠500")
+            else {
+                button8.setText("カロナール®錠500")
             }
         }
 

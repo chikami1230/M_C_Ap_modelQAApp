@@ -44,18 +44,18 @@ class Fragment1_4 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "カロナール200")
+            if (button1.text == "カロナール®200")
                 button1.setText("アセトアミノフェン")
-            else{
-                button1.setText("カロナール200")
+            else {
+                button1.setText("カロナール®200")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "カロナール300")
+            if (button2.text == "カロナール®300")
                 button2.setText("アセトアミノフェン")
-            else{
-                button2.setText("カロナール300")
+            else {
+                button2.setText("カロナール®300")
             }
         }
         button3.setOnClickListener {
@@ -73,17 +73,17 @@ class Fragment1_4 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "グラクティブ25")
+            if (button5.text == "グラクティブ®25")
                 button5.setText("シタグリプチン")
-            else{
-                button5.setText("グラクティブ25")
+            else {
+                button5.setText("グラクティブ®25")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "グラクティブ50")
+            if (button6.text == "グラクティブ®50")
                 button6.setText("シタグリプチン")
-            else{
-                button6.setText("グラクティブ50")
+            else {
+                button6.setText("グラクティブ®50")
             }
         }
         button7.setOnClickListener {
@@ -94,24 +94,24 @@ class Fragment1_4 : Fragment() {
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "輪ゴム小")
-                button8.setText("輪ゴム小")
-            else{
-                button8.setText("輪ゴム小")
+            if (button8.text == "")
+                button8.setText("")
+            else {
+                button8.setText("")
             }
         }
         button9.setOnClickListener {
-            if(button9.text == "グルベス配合錠")
+            if (button9.text == "グルベス®配合錠")
                 button9.setText("ミチグリニド＋ボグリボース")
-            else{
-                button9.setText("グルベス配合錠")
+            else {
+                button9.setText("グルベス®配合錠")
             }
         }
         button10.setOnClickListener {
-            if(button10.text == "クレストール2.5")
+            if (button10.text == "クレストール®2.5")
                 button10.setText("ロスバスタチン")
-            else{
-                button10.setText("クレストール2.5")
+            else {
+                button10.setText("クレストール®2.5")
             }
         }
         button11.setOnClickListener {
@@ -122,17 +122,17 @@ class Fragment1_4 : Fragment() {
             }
         }
         button12.setOnClickListener {
-            if(button12.text == "ケタスカプセル10")
+            if (button12.text == "ケタス®カプセル10")
                 button12.setText("イブジラスト")
-            else{
-                button12.setText("ケタスカプセル10")
+            else {
+                button12.setText("ケタス®カプセル10")
             }
         }
         button13.setOnClickListener {
-            if(button13.text == "ザイザル5")
+            if (button13.text == "ザイザル®5")
                 button13.setText("レボセチリジン")
-            else{
-                button13.setText("ザイザル5")
+            else {
+                button13.setText("ザイザル®5")
             }
         }
         button14.setOnClickListener {
@@ -150,10 +150,10 @@ class Fragment1_4 : Fragment() {
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "輪ゴム中")
-                button16.setText("輪ゴム中")
-            else{
-                button16.setText("輪ゴム中")
+            if (button16.text == "")
+                button16.setText("")
+            else {
+                button16.setText("")
             }
         }
 

@@ -49,60 +49,60 @@ class Fragment6_1 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "アレジオン")
+            if (button1.text == "アレジオン®")
                 button1.setText("エピナスチン")
             else {
-                button1.setText("アレジオン")
+                button1.setText("アレジオン®")
             }
         }
 
         button2.setOnClickListener {
-            if (button2.text == "オドメール点眼液0.1%")
+            if (button2.text == "オドメール®点眼液0.1%")
                 button2.setText("フルオロメトロン")
             else {
-                button2.setText("オドメール点眼液0.1%")
+                button2.setText("オドメール®点眼液0.1%")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "オドメール点眼液0.02%")
+            if (button3.text == "オドメール®点眼液0.02%")
                 button3.setText("フルオロメトロン")
             else {
-                button3.setText("オドメール点眼液0.02%")
+                button3.setText("オドメール®点眼液0.02%")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "オフテクター点眼液")
+            if (button4.text == "オフテクター®点眼液")
                 button4.setText("オフロキサシン")
             else {
-                button4.setText("オフテクター点眼液")
+                button4.setText("オフテクター®点眼液")
             }
         }
         button5.setOnClickListener {
-            if (button5.text == "カリーユニ点眼液")
+            if (button5.text == "カリーユニ®点眼液")
                 button5.setText("ピレノキシン")
             else {
-                button5.setText("カリーユニ点眼液")
+                button5.setText("カリーユニ®点眼液")
             }
         }
         button6.setOnClickListener {
-            if (button6.text == "クラビット点眼液0.5%")
+            if (button6.text == "クラビット®点眼液0.5%")
                 button6.setText("レボフロキサシン")
             else {
-                button6.setText("クラビット点眼液0.5%")
+                button6.setText("クラビット®点眼液0.5%")
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "コソプト配合点眼液")
+            if (button7.text == "コソプト®配合点眼液")
                 button7.setText("ドルゾラミド＋チモロール")
             else {
-                button7.setText("コソプト配合点眼液")
+                button7.setText("コソプト®配合点眼液")
             }
         }
         button8.setOnClickListener {
-            if (button8.text == "サンコバ点眼液")
+            if (button8.text == "サンコバ®点眼液")
                 button8.setText("シアノコバラミン")
             else {
-                button8.setText("サンコバ点眼液")
+                button8.setText("サンコバ®点眼液")
             }
         }
 

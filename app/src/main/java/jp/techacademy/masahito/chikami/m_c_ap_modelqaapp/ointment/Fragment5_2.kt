@@ -49,24 +49,24 @@ class Fragment5_2 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "ウレパールクリーム")
+            if (button1.text == "ウレパール®クリーム")
                 button1.setText("尿素")
             else {
-                button1.setText("ウレパールクリーム")
+                button1.setText("ウレパール®クリーム")
             }
         }
         button2.setOnClickListener {
-            if (button2.text == "オイラックスクリーム")
+            if (button2.text == "オイラックス®クリーム")
                 button2.setText("クロタミトン")
             else {
-                button2.setText("オイラックスクリーム")
+                button2.setText("オイラックス®クリーム")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "オイラックスHクリーム")
+            if (button3.text == "オイラックス®Hクリーム")
                 button3.setText("クロタミトン、ヒドロコルチゾン")
             else {
-                button3.setText("オイラックスHクリーム")
+                button3.setText("オイラックス®Hクリーム")
             }
         }
         button4.setOnClickListener {
@@ -78,10 +78,10 @@ class Fragment5_2 : Fragment() {
         }
 
         button5.setOnClickListener {
-            if (button5.text == "ゲンタシン軟膏")
+            if (button5.text == "ゲンタシン®軟膏")
                 button5.setText("ゲンタマイシン")
             else {
-                button5.setText("ゲンタシン軟膏")
+                button5.setText("ゲンタシン®軟膏")
             }
         }
 
@@ -93,17 +93,17 @@ class Fragment5_2 : Fragment() {
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "セビアックスローション")
+            if (button7.text == "セビアックス®ローション")
                 button7.setText("オゼノキサシン")
             else {
-                button7.setText("セビアックスローション")
+                button7.setText("セビアックス®ローション")
             }
         }
         button8.setOnClickListener {
-            if (button8.text == "ビーソフテンクリーム")
+            if (button8.text == "ビーソフテン®クリーム")
                 button8.setText("ヘパリン類似クリーム")
             else {
-                button8.setText("ビーソフテンクリーム")
+                button8.setText("ビーソフテン®クリーム")
             }
         }
 

@@ -44,10 +44,10 @@ class Fragment1_12 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "メジコン15")
+            if (button1.text == "メジコン®15")
                 button1.setText("デキストロメトルファン")
-            else{
-                button1.setText("メジコン15")
+            else {
+                button1.setText("メジコン®15")
             }
         }
 
@@ -80,10 +80,10 @@ class Fragment1_12 : Fragment() {
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "なし")
-                button6.setText("なし")
-            else{
-                button6.setText("なし")
+            if (button6.text == "")
+                button6.setText("")
+            else {
+                button6.setText("")
             }
         }
         button7.setOnClickListener {
@@ -94,10 +94,10 @@ class Fragment1_12 : Fragment() {
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "小物")
-                button8.setText("小物")
-            else{
-                button8.setText("小物")
+            if (button8.text == "")
+                button8.setText("")
+            else {
+                button8.setText("")
             }
         }
         button9.setOnClickListener {
@@ -108,52 +108,52 @@ class Fragment1_12 : Fragment() {
             }
         }
         button10.setOnClickListener {
-            if(button10.text == "リオベルHD")
+            if (button10.text == "リオベル®HD")
                 button10.setText("アログリプチン")
-            else{
-                button10.setText("リオベルHD")
+            else {
+                button10.setText("リオベル®HD")
             }
         }
         button11.setOnClickListener {
-            if(button11.text == "リオベルLD")
+            if (button11.text == "リオベル®LD")
                 button11.setText("アログリプチン")
-            else{
-                button11.setText("リオベルLD")
+            else {
+                button11.setText("リオベル®LD")
             }
         }
         button12.setOnClickListener {
-            if(button12.text == "リバロ1")
+            if (button12.text == "リバロ®1")
                 button12.setText("ピタバスタチン")
-            else{
-                button12.setText("リバロ1")
+            else {
+                button12.setText("リバロ®1")
             }
         }
         button13.setOnClickListener {
-            if(button13.text == "リバロ2")
+            if (button13.text == "リバロ®2")
                 button13.setText("ピタバスタチン")
-            else{
-                button13.setText("リバロ2")
+            else {
+                button13.setText("リバロ®2")
             }
         }
         button14.setOnClickListener {
-            if(button14.text == "リピトール5")
+            if (button14.text == "リピトール®5")
                 button14.setText("アトルバスタチン")
-            else{
-                button14.setText("リピトール5")
+            else {
+                button14.setText("リピトール®5")
             }
         }
         button15.setOnClickListener {
-            if(button15.text == "リピトール10")
+            if (button15.text == "リピトール®10")
                 button15.setText("アトルバスタチン")
-            else{
-                button15.setText("リピトール10")
+            else {
+                button15.setText("リピトール®10")
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "メモ用紙")
-                button16.setText("メモ用紙")
-            else{
-                button16.setText("メモ用紙")
+            if (button16.text == "")
+                button16.setText("")
+            else {
+                button16.setText("")
             }
         }
 

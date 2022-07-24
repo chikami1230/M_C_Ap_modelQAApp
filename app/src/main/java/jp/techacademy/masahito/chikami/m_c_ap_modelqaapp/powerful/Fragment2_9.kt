@@ -55,24 +55,24 @@ class Fragment2_9 : Fragment() {
             }
         }
         button2.setOnClickListener {
-            if(button2.text == "トラムセット配合錠")
+            if (button2.text == "トラムセット®配合錠")
                 button2.setText("トラマドール＋アセトアミノフェン")
-            else{
-                button2.setText("トラムセット配合錠")
+            else {
+                button2.setText("トラムセット®配合錠")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "ナイキサン100")
+            if (button3.text == "ナイキサン®100")
                 button3.setText("ナプロキセン")
-            else{
-                button3.setText("ナイキサン100")
+            else {
+                button3.setText("ナイキサン®100")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "ニトロペン舌下錠")
+            if (button4.text == "ニトロペン®舌下錠")
                 button4.setText("ニトログリセリン")
-            else{
-                button4.setText("ニトロペン舌下錠")
+            else {
+                button4.setText("ニトロペン®舌下錠")
             }
         }
 

@@ -49,69 +49,69 @@ class Fragment8_2 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "ウルティブロ吸入用カプセル")
+            if (button1.text == "ウルティブロ®吸入用カプセル")
                 button1.setText(
                     "グリコピロニウム臭化物\n" +
                             "インダカテロールマレイン酸塩"
                 )
             else {
-                button1.setText("ウルティブロ吸入用カプセル")
+                button1.setText("ウルティブロ®吸入用カプセル")
             }
         }
         button2.setOnClickListener {
-            if (button2.text == "エクリラ400μgジャヌエア30吸入")
+            if (button2.text == "エクリラ®400μgジャヌエア®30吸入")
                 button2.setText("アクリジニウム臭化物")
             else {
-                button2.setText("エクリラ400μgジャヌエア30吸入")
+                button2.setText("エクリラ®400μgジャヌエア®30吸入")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "オルベスコ200μgインヘラー56吸入用")
+            if (button3.text == "オルベスコ®200μgインヘラー56吸入用")
                 button3.setText("シクレソニド")
             else {
-                button3.setText("オルベスコ200μgインヘラー56吸入用")
+                button3.setText("オルベスコ®200μgインヘラー56吸入用")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "キュバール100エアゾール")
+            if (button4.text == "キュバール®100エアゾール")
                 button4.setText("ベクロメタゾンプロピオン酸エステル")
             else {
-                button4.setText("キュバール100エアゾール")
+                button4.setText("キュバール®100エアゾール")
             }
         }
         button5.setOnClickListener {
-            if (button5.text == "シムビコートタービュヘイラー30吸入")
+            if (button5.text == "シムビコート®タービュヘイラー®30吸入")
                 button5.setText(
                     "ブデソニド\n" +
                             "ホルモテロールフマル酸塩水和物"
                 )
             else {
-                button5.setText("シムビコートタービュヘイラー30吸入")
+                button5.setText("シムビコート®タービュヘイラー®30吸入")
             }
         }
 
         button6.setOnClickListener {
-            if (button6.text == "シムビコートタービュヘイラー60吸入")
+            if (button6.text == "シムビコート®タービュヘイラー®60吸入")
                 button6.setText(
                     "ブデソニド\n" +
                             "ホルモテロールフマル酸塩水和物"
                 )
             else {
-                button6.setText("シムビコートタービュヘイラー60吸入")
+                button6.setText("シムビコート®タービュヘイラー®60吸入")
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "スピリーバ1.25μgレスピマット60吸入")
+            if (button7.text == "スピリーバ®1.25μgレスピマット®60吸入")
                 button7.setText("チオトロピウム臭化物水和物")
             else {
-                button7.setText("スピリーバ1.25μgレスピマット60吸入")
+                button7.setText("スピリーバ®1.25μgレスピマット®60吸入")
             }
         }
         button8.setOnClickListener {
             if (button8.text == "スピリーバ2.5μgレスピマット60吸入")
                 button8.setText("チオトロピウム臭化物水和物")
             else {
-                button8.setText("スピリーバ2.5μgレスピマット60吸入")
+                button8.setText("スピリーバ®2.5μgレスピマット®60吸入")
             }
         }
 

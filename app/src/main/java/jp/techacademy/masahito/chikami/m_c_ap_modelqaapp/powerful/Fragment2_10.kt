@@ -48,38 +48,38 @@ class Fragment2_10 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "ノルバスク2.5")
+            if (button1.text == "ノルバスク®2.5")
                 button1.setText("アムロジピン")
-            else{
-                button1.setText("ノルバスク2.5")
+            else {
+                button1.setText("ノルバスク®2.5")
             }
         }
         button2.setOnClickListener {
-            if(button2.text == "ノルバスクOD5")
+            if (button2.text == "ノルバスク®OD5")
                 button2.setText("アムロジピン")
-            else{
-                button2.setText("ノルバスクOD5")
+            else {
+                button2.setText("ノルバスク®OD5")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "ハーフジゴキシンKY0.125")
+            if (button3.text == "ハーフジゴキシン®KY0.125")
                 button3.setText("ジゴキシン")
-            else{
-                button3.setText("ハーフジゴキシンKY0.125")
+            else {
+                button3.setText("ハーフジゴキシン®KY0.125")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "パキシル5")
+            if (button4.text == "パキシル®5")
                 button4.setText("パロキセチン")
-            else{
-                button4.setText("パキシル5")
+            else {
+                button4.setText("パキシル®5")
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "パキシルCR25")
+            if (button5.text == "パキシル®CR25")
                 button5.setText("パロキセチン")
-            else{
-                button5.setText("パキシルCR25")
+            else {
+                button5.setText("パキシル®CR25")
             }
         }
         button6.setOnClickListener {

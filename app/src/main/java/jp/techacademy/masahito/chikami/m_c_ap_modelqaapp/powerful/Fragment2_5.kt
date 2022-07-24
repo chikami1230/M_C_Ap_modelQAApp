@@ -75,10 +75,10 @@ class Fragment2_5 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "コニール2")
+            if (button5.text == "コニール®2")
                 button5.setText("ベニジピン")
-            else{
-                button5.setText("コニール2")
+            else {
+                button5.setText("コニール®2")
             }
         }
         button6.setOnClickListener {
@@ -89,17 +89,17 @@ class Fragment2_5 : Fragment() {
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "サインバルタカプセル20")
+            if (button7.text == "サインバルタ®カプセル20")
                 button7.setText("デュロキセチン")
-            else{
-                button7.setText("サインバルタカプセル20")
+            else {
+                button7.setText("サインバルタ®カプセル20")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "ザグラスHD")
+            if (button8.text == "ザグラス®HD")
                 button8.setText("アジルサルタン＋アムロジピン")
-            else{
-                button8.setText("ザグラスHD")
+            else {
+                button8.setText("ザグラス®HD")
             }
         }
 

@@ -47,59 +47,59 @@ class Fragment2_7 : Fragment() {
 
 
         button1.setOnClickListener {
-            if( button1.text == "ストラテラカプセル40")
+            if (button1.text == "ストラテラ®カプセル40")
                 button1.setText("アトモキセチン")
-            else{
-                button1.setText("ストラテラカプセル40")
+            else {
+                button1.setText("ストラテラ®カプセル40")
             }
         }
         button2.setOnClickListener {
-            if( button2.text == "セレクトール100")
+            if (button2.text == "セレクトール®100")
                 button2.setText("セリプロロール")
-            else{
-                button2.setText("セレクトール100")
+            else {
+                button2.setText("セレクトール®100")
             }
         }
         button3.setOnClickListener {
-            if( button3.text == "セレクトール200")
+            if (button3.text == "セレクトール®200")
                 button3.setText("セレクトール")
-            else{
-                button3.setText("セレクトール200")
+            else {
+                button3.setText("セレクトール®200")
             }
         }
         button4.setOnClickListener {
-            if( button4.text == "セレコックス100")
+            if (button4.text == "セレコックス®100")
                 button4.setText("セレコキシブ")
-            else{
-                button4.setText("セレコックス100")
+            else {
+                button4.setText("セレコックス®100")
             }
         }
         button5.setOnClickListener {
-            if( button5.text == "ソニアス配合錠LD")
+            if (button5.text == "ソニアス®配合錠LD")
                 button5.setText("ピオグリタゾン＋グリメピリド")
-            else{
-                button5.setText("ソニアス配合錠LD")
+            else {
+                button5.setText("ソニアス®配合錠LD")
             }
         }
         button6.setOnClickListener {
-            if( button6.text == "ゾーミックRM2.5")
+            if (button6.text == "ゾーミック®RM2.5")
                 button6.setText("ゾルミトリプタン")
-            else{
-                button6.setText("ゾーミックRM2.5")
+            else {
+                button6.setText("ゾーミック®RM2.5")
             }
         }
         button7.setOnClickListener {
-            if( button7.text == "チャンピックス錠スタート用パック")
+            if (button7.text == "チャンピックス®錠スタート用パック")
                 button7.setText("バニレクリン")
-            else{
-                button7.setText("チャンピックス錠スタート用パック")
+            else {
+                button7.setText("チャンピックス®錠スタート用パック")
             }
         }
         button8.setOnClickListener {
-            if( button8.text == "チャンピックス1mg")
+            if (button8.text == "チャンピックス®1mg")
                 button8.setText("バニレクリン")
-            else{
-                button8.setText("チャンピックス1mg")
+            else {
+                button8.setText("チャンピックス®1mg")
             }
         }
 

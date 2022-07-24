@@ -44,18 +44,18 @@ class Fragment1_6 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "セルベックス50")
+            if (button1.text == "セルベックス®50")
                 button1.setText("テプレノン")
-            else{
-                button1.setText("セルベックス50")
+            else {
+                button1.setText("セルベックス®50")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "セレキノン100")
+            if (button2.text == "セレキノン®100")
                 button2.setText("トリメブチン")
-            else{
-                button2.setText("セレキノン100")
+            else {
+                button2.setText("セレキノン®100")
             }
         }
         button3.setOnClickListener {
@@ -73,38 +73,38 @@ class Fragment1_6 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "タケキャブ10")
+            if (button5.text == "タケキャブ®10")
                 button5.setText("ボノプラザン")
-            else{
-                button5.setText("タケキャブ10")
+            else {
+                button5.setText("タケキャブ®10")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "タケキャブ20")
+            if (button6.text == "タケキャブ®20")
                 button6.setText("ボノプラザン")
-            else{
-                button6.setText("タケキャブ20")
+            else {
+                button6.setText("タケキャブ®20")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "タケルダ配合錠")
+            if (button7.text == "タケルダ®配合錠")
                 button7.setText("アスピリン＋ランソプラゾール")
-            else{
-                button7.setText("タケルダ配合錠")
+            else {
+                button7.setText("タケルダ®配合錠")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "タケプロンOD15")
+            if (button8.text == "タケプロン®OD15")
                 button8.setText("ランソプラゾール")
-            else{
-                button8.setText("タケプロンOD15")
+            else {
+                button8.setText("タケプロン®OD15")
             }
         }
         button9.setOnClickListener {
-            if(button9.text == "タベジール1")
+            if (button9.text == "タベジール®1")
                 button9.setText("クレマスチン")
-            else{
-                button9.setText("タベジール1")
+            else {
+                button9.setText("タベジール®1")
             }
         }
         button10.setOnClickListener {
@@ -115,10 +115,10 @@ class Fragment1_6 : Fragment() {
             }
         }
         button11.setOnClickListener {
-            if(button11.text == "ディオバン40")
+            if (button11.text == "ディオバン®40")
                 button11.setText("バルサルタン")
-            else{
-                button11.setText("ディオバン40")
+            else {
+                button11.setText("ディオバン®40")
             }
         }
         button12.setOnClickListener {
@@ -136,10 +136,10 @@ class Fragment1_6 : Fragment() {
             }
         }
         button14.setOnClickListener {
-            if(button14.text == "テネリア20")
+            if (button14.text == "テネリア®20")
                 button14.setText("テネリグリプチン")
-            else{
-                button14.setText("テネリア20")
+            else {
+                button14.setText("テネリア®20")
             }
         }
         button15.setOnClickListener {
@@ -150,10 +150,10 @@ class Fragment1_6 : Fragment() {
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "デベルザ20")
+            if (button16.text == "デベルザ®20")
                 button16.setText("トホグリフロジン")
-            else{
-                button16.setText("デベルザ20")
+            else {
+                button16.setText("デベルザ®20")
             }
         }
 

@@ -48,18 +48,18 @@ class Fragment2_1 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "アダラートL10")
+            if (button1.text == "アダラート®L10")
                 button1.setText("ニフェジピン")
-            else{
-                button1.setText("アダラートL10")
+            else {
+                button1.setText("アダラート®L10")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "アダラートカプセル5mg")
+            if (button2.text == "アダラート®カプセル5mg")
                 button2.setText("ニフェジピン")
-            else{
-                button2.setText("アダラートカプセル5mg")
+            else {
+                button2.setText("アダラート®カプセル5mg")
             }
         }
         button3.setOnClickListener {
@@ -78,31 +78,31 @@ class Fragment2_1 : Fragment() {
         }
 
         button5.setOnClickListener {
-            if(button5.text == "アマルエット1番")
+            if (button5.text == "アマルエット®1番")
                 button5.setText("アムロジピン＋アトルバスタチン")
-            else{
-                button5.setText("アマルエット1番")
+            else {
+                button5.setText("アマルエット®1番")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "アマルエット2番")
+            if (button6.text == "アマルエット®2番")
                 button6.setText("アムロジピン＋アトルバスタチン")
-            else{
-                button6.setText("アマルエット2番")
+            else {
+                button6.setText("アマルエット®2番")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "アマルエット3番")
+            if (button7.text == "アマルエット®3番")
                 button7.setText("アムロジピン＋アトルバスタチン")
-            else{
-                button7.setText("アマルエット3番")
+            else {
+                button7.setText("アマルエット®3番")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "アマルエット4番")
+            if (button8.text == "アマルエット®4番")
                 button8.setText("アムロジピン＋アトルバスタチン")
-            else{
-                button8.setText("アマルエット4番")
+            else {
+                button8.setText("アマルエット®4番")
             }
         }
 

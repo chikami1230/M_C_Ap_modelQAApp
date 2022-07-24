@@ -57,52 +57,52 @@ class Fragment5_3 : Fragment() {
         }
 
         button2.setOnClickListener {
-            if (button2.text == "ヒルドイドソフト軟膏")
+            if (button2.text == "ヒルドイド®ソフト軟膏")
                 button2.setText("ヘパリン類似物質")
             else {
-                button2.setText("ヒルドイドソフト軟膏")
+                button2.setText("ヒルドイド®ソフト軟膏")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "スタデルム軟膏")
+            if (button3.text == "スタデルム®軟膏")
                 button3.setText("イブプロフェンクリーム")
             else {
-                button3.setText("スタデルム軟膏")
+                button3.setText("スタデルム®軟膏")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "ニゾラールクリーム")
+            if (button4.text == "ニゾラール®クリーム")
                 button4.setText("ケトコナゾール")
             else {
-                button4.setText("ニゾラールクリーム")
+                button4.setText("ニゾラール®クリーム")
             }
         }
         button5.setOnClickListener {
-            if (button5.text == "ネオメドールEE軟膏")
+            if (button5.text == "ネオメドール®EE軟膏")
                 button5.setText("フラジオマイシン＋メチルプレドニゾロン")
             else {
-                button5.setText("ネオメドールEE軟膏")
+                button5.setText("ネオメドール®EE軟膏")
             }
         }
         button6.setOnClickListener {
-            if (button6.text == "ペキロンクリーム")
+            if (button6.text == "ペキロン®クリーム")
                 button6.setText("アモロルフィン")
             else {
-                button6.setText("ペロキンクリーム")
+                button6.setText("ペロキン®クリーム")
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "ボルタレンゲル")
+            if (button7.text == "ボルタレン®ゲル")
                 button7.setText("ジクロフェナク")
             else {
-                button7.setText("ボルタレンゲル")
+                button7.setText("ボルタレン®ゲル")
             }
         }
         button8.setOnClickListener {
-            if (button8.text == "ボルタレンローション")
+            if (button8.text == "ボルタレン®ローション")
                 button8.setText("ジクロフェナク")
             else {
-                button8.setText("ボルタレンローション")
+                button8.setText("ボルタレン®ローション")
             }
         }
 

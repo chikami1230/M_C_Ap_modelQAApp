@@ -48,10 +48,10 @@ class Fragment5_4 : Fragment() {
 
 
         button1.setOnClickListener {
-            if( button1.text == "マイザー軟膏")
+            if (button1.text == "マイザー®軟膏")
                 button1.setText("ジフルプレドナート")
-            else{
-                button1.setText("マイザー軟膏")
+            else {
+                button1.setText("マイザー®軟膏")
             }
         }
         button2.setOnClickListener {
@@ -62,17 +62,17 @@ class Fragment5_4 : Fragment() {
             }
         }
         button3.setOnClickListener {
-            if( button3.text == "リンデロンVG軟膏")
+            if (button3.text == "リンデロン®VG軟膏")
                 button3.setText("ベタメタゾン吉草酸エステル+ゲンタマイシン")
-            else{
-                button3.setText("リンデロンVG軟膏")
+            else {
+                button3.setText("リンデロン®VG軟膏")
             }
         }
         button4.setOnClickListener {
-            if( button4.text == "リンデロンVGクリーム")
+            if (button4.text == "リンデロン®VGクリーム")
                 button4.setText("ベタメタゾン吉草酸エステル＋ゲンタマイシン")
-            else{
-                button4.setText("リンデロンVGクリーム")
+            else {
+                button4.setText("リンデロン®VGクリーム")
             }
         }
         button5.setOnClickListener {
@@ -84,17 +84,17 @@ class Fragment5_4 : Fragment() {
         }
 
         button6.setOnClickListener {
-            if( button6.text == "ロコイド軟膏")
+            if (button6.text == "ロコイド®軟膏")
                 button6.setText("ヒドロコルチゾン")
-            else{
-                button6.setText("ロコイド軟膏")
+            else {
+                button6.setText("ロコイド®軟膏")
             }
         }
         button7.setOnClickListener {
-            if( button7.text == "ロコイドクリーム")
+            if (button7.text == "ロコイド®クリーム")
                 button7.setText("ヒドロコルチゾン")
-            else{
-                button7.setText("ロコイドクリーム")
+            else {
+                button7.setText("ロコイド®クリーム")
             }
         }
         button8.setOnClickListener {

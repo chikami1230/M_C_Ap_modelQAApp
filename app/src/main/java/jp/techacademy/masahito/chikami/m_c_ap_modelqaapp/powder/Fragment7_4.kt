@@ -49,10 +49,10 @@ class Fragment7_4 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "カロナール細粒20%")
+            if (button1.text == "カロナール®細粒20%")
                 button1.setText("アセトアミノフェン")
-            else{
-                button1.setText("カロナール細粒20%")
+            else {
+                button1.setText("カロナール®細粒20%")
             }
         }
         button2.setOnClickListener {
@@ -70,10 +70,10 @@ class Fragment7_4 : Fragment() {
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "デルギンG DS0.1%")
+            if (button4.text == "デルギン®G DS0.1%")
                 button4.setText("クレマスチン")
-            else{
-                button4.setText("デルギンG DS0.1%")
+            else {
+                button4.setText("デルギン®G DS0.1%")
             }
         }
         button5.setOnClickListener {

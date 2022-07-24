@@ -45,17 +45,17 @@ class Fragment2_6 : Fragment() {
         var flag16 = true
 
         button1.setOnClickListener {
-            if( button1.text == "ザグラスLD")
+            if (button1.text == "ザグラス®LD")
                 button1.setText("アジルサルタン＋アムロジピン")
-            else{
-                button1.setText("ザグラスLD")
+            else {
+                button1.setText("ザグラス®LD")
             }
         }
         button2.setOnClickListener {
-            if( button2.text == "サンリズムカプセル50")
+            if (button2.text == "サンリズム®カプセル50")
                 button2.setText("ピルシカイニド")
-            else{
-                button2.setText("サンリズムカプセル50")
+            else {
+                button2.setText("サンリズム®カプセル50")
             }
         }
         button3.setOnClickListener {
@@ -73,32 +73,32 @@ class Fragment2_6 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if( button5.text == "シベノール100")
+            if (button5.text == "シベノール®100")
                 button5.setText("シベンゾリン")
-            else{
-                button5.setText("シベノール100")
+            else {
+                button5.setText("シベノール®100")
             }
         }
 
         button6.setOnClickListener {
-            if( button6.text == "シュアポスト0.25")
+            if (button6.text == "シュアポスト®0.25")
                 button6.setText("レパグリニド")
-            else{
-                button6.setText("シュアポスト0.25")
+            else {
+                button6.setText("シュアポスト®0.25")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "シュアポスト0.5")
+            if (button7.text == "シュアポスト®0.5")
                 button7.setText("レパグリニド")
-            else{
-                button7.setText("シュアポスト0.5")
+            else {
+                button7.setText("シュアポスト®0.5")
             }
         }
         button8.setOnClickListener {
-            if( button8.text == "ストラテラカプセル25")
+            if (button8.text == "ストラテラ®カプセル25")
                 button8.setText("アトモキセチン")
-            else{
-                button8.setText("ストラテラカプセル25")
+            else {
+                button8.setText("ストラテラ®カプセル25")
             }
         }
 

@@ -54,10 +54,10 @@ class Fragment2_3 : Fragment() {
             }
         }
         button2.setOnClickListener {
-            if( button2.text == "アリミデックス1")
+            if (button2.text == "アリミデックス®1")
                 button2.setText("アナストロゾール")
-            else{
-                button2.setText("アリミデックス1")
+            else {
+                button2.setText("アリミデックス®1")
             }
         }
         button3.setOnClickListener {
@@ -77,32 +77,32 @@ class Fragment2_3 : Fragment() {
 
 
         button5.setOnClickListener {
-            if( button5.text == "イニシンク配合錠")
+            if (button5.text == "イニシンク®配合錠")
                 button5.setText("アログリプチン＋メトホルミン")
-            else{
-                button5.setText("イニシンク配合錠")
+            else {
+                button5.setText("イニシンク®配合錠")
             }
         }
 
         button6.setOnClickListener {
-            if( button6.text == "イルアミクスHD")
+            if (button6.text == "イルアミクス®HD")
                 button6.setText("イルベサルタン＋アムロジピン")
-            else{
-                button6.setText("イルアミクスHD")
+            else {
+                button6.setText("イルアミクス®HD")
             }
         }
         button7.setOnClickListener {
-            if( button7.text == "イルアミクスLD")
+            if (button7.text == "イルアミクス®LD")
                 button7.setText("イルベサルタン＋アムロジピン")
-            else{
-                button7.setText("イルアミクスLD")
+            else {
+                button7.setText("イルアミクス®LD")
             }
         }
         button8.setOnClickListener {
-            if( button8.text == "エックスフォージ配合錠")
+            if (button8.text == "エックスフォージ®配合錠")
                 button8.setText("バルサルタン＋アムロジピン")
-            else{
-                button8.setText("エックスフォージ配合錠")
+            else {
+                button8.setText("エックスフォージ®配合錠")
             }
         }
 

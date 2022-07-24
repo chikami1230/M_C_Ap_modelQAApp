@@ -68,17 +68,17 @@ class Fragment8_3 : Fragment() {
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "パルミコート200μgタービュヘイラー56吸入")
+            if (button3.text == "パルミコート®200μgタービュヘイラー®56吸入")
                 button3.setText("ブデソニド")
             else {
-                button3.setText("パルミコート200μgタービュヘイラー56吸入")
+                button3.setText("パルミコート®200μgタービュヘイラー®56吸入")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "パルミコート200μgタービュヘイラー112吸入")
+            if (button4.text == "パルミコート®200μgタービュヘイラー®112吸入")
                 button4.setText("ブデソニド")
             else {
-                button4.setText("パルミコート200μgタービュヘイラー112吸入")
+                button4.setText("パルミコート®200μgタービュヘイラー®112吸入")
             }
         }
         button5.setOnClickListener {
@@ -103,13 +103,13 @@ class Fragment8_3 : Fragment() {
             }
         }
         button8.setOnClickListener {
-            if (button8.text == "フルティフォーム50μgエアゾール120吸入用")
+            if (button8.text == "フルティフォーム®50μgエアゾール120吸入用")
                 button8.setText(
                     "フルチカゾンプロピオン酸エステル\n" +
                             "ホルモテロールフマル酸塩水和物"
                 )
             else {
-                button8.setText("フルティフォーム50μgエアゾール120吸入用")
+                button8.setText("フルティフォーム®50μgエアゾール120吸入用")
             }
         }
 

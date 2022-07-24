@@ -212,7 +212,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ベザフィブラート®SR200"
+            android:text="ベザフィブラートSR200"
             android:id="@+id/button9"/>
 
         <Button
@@ -261,7 +261,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ベルソムラ15"
+            android:text="ベルソムラ®15"
             android:id="@+id/button16"/>
 
 

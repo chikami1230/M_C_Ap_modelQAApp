@@ -46,18 +46,18 @@ class Fragment1_2 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "アレジオン10")
+            if (button1.text == "アレジオン®10")
                 button1.setText("エピナスチン")
-            else{
-                button1.setText("アレジオン10")
+            else {
+                button1.setText("アレジオン®10")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "アレジオン20")
+            if (button2.text == "アレジオン®20")
                 button2.setText("エピナスチン")
-            else{
-                button2.setText("アレジオン20")
+            else {
+                button2.setText("アレジオン®20")
             }
         }
         button3.setOnClickListener {
@@ -75,17 +75,17 @@ class Fragment1_2 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "イグザレルト10")
+            if (button5.text == "イグザレルト®10")
                 button5.setText("リバーロキサバン")
-            else{
-                button5.setText("イグザレルト10")
+            else {
+                button5.setText("イグザレルト®10")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "イグザレルト15")
+            if (button6.text == "イグザレルト®15")
                 button6.setText("リバーロキサバン")
-            else{
-                button6.setText("イグザレルト15")
+            else {
+                button6.setText("イグザレルト®15")
             }
         }
         button7.setOnClickListener {
@@ -131,17 +131,17 @@ class Fragment1_2 : Fragment() {
             }
         }
         button13.setOnClickListener {
-            if(button13.text == "ウリアデック40")
+            if (button13.text == "ウリアデック®40")
                 button13.setText("トピロキソスタット")
-            else{
-                button13.setText("ウリアデック40")
+            else {
+                button13.setText("ウリアデック®40")
             }
         }
         button14.setOnClickListener {
-            if(button14.text == "ウルソ100")
+            if (button14.text == "ウルソ®100")
                 button14.setText("ウルソデオキシコール酸")
-            else{
-                button14.setText("ウルソ100")
+            else {
+                button14.setText("ウルソ®100")
             }
         }
         button15.setOnClickListener {
@@ -152,10 +152,10 @@ class Fragment1_2 : Fragment() {
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "エクア")
+            if (button16.text == "エクア®")
                 button16.setText("ビルダグリプチン")
-            else{
-                button16.setText("エクア")
+            else {
+                button16.setText("エクア®")
             }
         }
 

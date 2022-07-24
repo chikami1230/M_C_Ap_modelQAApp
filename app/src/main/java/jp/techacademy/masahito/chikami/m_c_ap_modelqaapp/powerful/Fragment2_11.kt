@@ -63,17 +63,17 @@ class Fragment2_11 : Fragment() {
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "ベタニス25")
+            if (button3.text == "ベタニス®25")
                 button3.setText("ミラベグロン")
-            else{
-                button3.setText("ベタニス25")
+            else {
+                button3.setText("ベタニス®25")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "ベタニス50")
+            if (button4.text == "ベタニス®50")
                 button4.setText("ミラベグロン")
-            else{
-                button4.setText("ベタニス50")
+            else {
+                button4.setText("ベタニス®50")
             }
         }
         button5.setOnClickListener {
@@ -91,17 +91,17 @@ class Fragment2_11 : Fragment() {
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "ボルクレン25")
+            if (button7.text == "ボルタレン®25")
                 button7.setText("ジクロフェナク")
-            else{
-                button7.setText("ボルクレン25")
+            else {
+                button7.setText("ボルタレン®25")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "ミカムロ配合錠AP")
+            if (button8.text == "ミカムロ®配合錠AP")
                 button8.setText("テルミサルタン＋アムロジピン")
-            else{
-                button8.setText("ミカムロ配合錠AP")
+            else {
+                button8.setText("ミカムロ®配合錠AP")
             }
         }
 

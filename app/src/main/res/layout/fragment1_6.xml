@@ -233,7 +233,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="テオフィリン®徐放錠100"
+            android:text="テオフィリン徐放錠100"
             android:id="@+id/button12"/>
 
         <Button

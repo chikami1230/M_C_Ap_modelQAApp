@@ -121,7 +121,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="レボカバスチン点眼液0.025%「TS」"
+                android:text="レボカバスチン点眼液0.025%"
                 android:id="@+id/button6" />
 
             <Button

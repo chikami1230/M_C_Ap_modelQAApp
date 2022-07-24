@@ -45,10 +45,10 @@ class Fragment1_13 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "リポバス5")
+            if (button1.text == "リポバス®5")
                 button1.setText("シンバスタチン")
-            else{
-                button1.setText("リポバス5")
+            else {
+                button1.setText("リポバス®5")
             }
         }
 
@@ -60,24 +60,24 @@ class Fragment1_13 : Fragment() {
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "リリカOD錠25")
+            if (button3.text == "リリカ®OD錠25")
                 button3.setText("プレガバリン")
-            else{
-                button3.setText("リリカOD錠25")
+            else {
+                button3.setText("リリカ®OD錠25")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "リリカカプセル75")
+            if (button4.text == "リリカ®カプセル75")
                 button4.setText("プレガバリン")
-            else{
-                button4.setText("リリカカプセル75")
+            else {
+                button4.setText("リリカ®カプセル75")
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "レザルタスHD")
+            if (button5.text == "レザルタス®HD")
                 button5.setText("オルメサルタン＋アゼルニジピン")
-            else{
-                button5.setText("レザルタスHD")
+            else {
+                button5.setText("レザルタス®HD")
             }
         }
         button6.setOnClickListener {
@@ -95,24 +95,24 @@ class Fragment1_13 : Fragment() {
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "なし")
-                button8.setText("なし")
-            else{
-                button8.setText("なし")
+            if (button8.text == "")
+                button8.setText("")
+            else {
+                button8.setText("")
             }
         }
         button9.setOnClickListener {
-            if(button9.text == "ロキソニン60")
+            if (button9.text == "ロキソニン®60")
                 button9.setText("ロキソプロフェン")
-            else{
-                button9.setText("ロキソニン60")
+            else {
+                button9.setText("ロキソニン®60")
             }
         }
         button10.setOnClickListener {
-            if(button10.text == "ロゼレム8")
+            if (button10.text == "ロゼレム®8")
                 button10.setText("ラメルテオン")
-            else{
-                button10.setText("ロゼレム8")
+            else {
+                button10.setText("ロゼレム®8")
             }
         }
         button11.setOnClickListener {
@@ -144,17 +144,17 @@ class Fragment1_13 : Fragment() {
             }
         }
         button15.setOnClickListener {
-            if(button15.text == "なし")
-                button15.setText("なし")
-            else{
-                button15.setText("なし")
+            if (button15.text == "")
+                button15.setText("")
+            else {
+                button15.setText("")
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "なし")
-                button16.setText("なし")
-            else{
-                button16.setText("なし")
+            if (button16.text == "")
+                button16.setText("")
+            else {
+                button16.setText("")
             }
         }
 

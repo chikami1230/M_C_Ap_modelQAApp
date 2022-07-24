@@ -52,10 +52,10 @@ class Fragment1_5 : Fragment() {
         }
 
         button2.setOnClickListener {
-            if(button2.text == "シダキュア5000")
+            if (button2.text == "シダキュア®5000")
                 button2.setText("(スギ花粉の減感)")
-            else{
-                button2.setText("シダキュア5000")
+            else {
+                button2.setText("シダキュア®5000")
             }
         }
         button3.setOnClickListener {
@@ -66,10 +66,10 @@ class Fragment1_5 : Fragment() {
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "ジャディアンス10")
+            if (button4.text == "ジャディアンス®10")
                 button4.setText("エンパグリフロジン")
-            else{
-                button4.setText("ジャディアンス10")
+            else {
+                button4.setText("ジャディアンス®10")
             }
         }
         button5.setOnClickListener {
@@ -94,24 +94,24 @@ class Fragment1_5 : Fragment() {
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "輪ゴム大")
+            if (button8.text == "")
                 button8.setText("")
-            else{
-                button8.setText("輪ゴム大")
+            else {
+                button8.setText("")
             }
         }
         button9.setOnClickListener {
-            if(button9.text == "シングレア10")
+            if (button9.text == "シングレア®10")
                 button9.setText("モンテルカスト")
-            else{
-                button9.setText("シングレア10")
+            else {
+                button9.setText("シングレア®10")
             }
         }
         button10.setOnClickListener {
-            if(button10.text == "スイニー100")
+            if (button10.text == "スイニー®100")
                 button10.setText("アナグリプチン")
-            else{
-                button10.setText("スイニー100")
+            else {
+                button10.setText("スイニー®100")
             }
         }
         button11.setOnClickListener {
@@ -136,17 +136,17 @@ class Fragment1_5 : Fragment() {
             }
         }
         button14.setOnClickListener {
-            if(button14.text == "セイブル50")
+            if (button14.text == "セイブル®50")
                 button14.setText("ミグリトール")
-            else{
-                button14.setText("セイブル50")
+            else {
+                button14.setText("セイブル®50")
             }
         }
         button15.setOnClickListener {
-            if(button15.text == "ゼチーア10")
+            if (button15.text == "ゼチーア®10")
                 button15.setText("エゼチミブ")
-            else{
-                button15.setText("ゼチーア10")
+            else {
+                button15.setText("ゼチーア®10")
             }
         }
         button16.setOnClickListener {

@@ -87,49 +87,49 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ビソプロロール2.5" />
+            android:text="カロナール®200" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ビソプロロール5" />
+            android:text="カロナール®500" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ピタバスタチン1" />
+            android:text="ガンマオリザノール50" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ピタバスタチンOD2" />
+            android:text="クエン酸第一鉄50" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="131dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ピタバスタチンカルシウム4" />
+            android:text="グラクティブ®25" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ビタメジン®B25" />
+            android:text="グラクティブ®50" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ビラノア®20" />
+            android:text="クラリスロマイシン200" />
 
         <Button
             android:id="@+id/button8"
@@ -210,49 +210,49 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ファモチジンD10"
+            android:text="グルベス®配合錠"
             android:id="@+id/button9"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="ファモチジンOD20"
+            android:text="クレストール®2.5"
             android:id="@+id/button10"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フェノフィブラート53.3"
+            android:text="クロピトグレル75"
             android:id="@+id/button11"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フェノフィブラート100"
+            android:text="ケタス®カプセル10"
             android:id="@+id/button12"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フェロミア®50"
+            android:text="ザイザル®5"
             android:id="@+id/button13"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フェキソフェナジン60"
+            android:text="酸化マグネシウム250"
             android:id="@+id/button14"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:text="フェロベリン®配合錠"
+            android:text="酸化マグネシウム330"
             android:id="@+id/button15"/>
 
         <Button

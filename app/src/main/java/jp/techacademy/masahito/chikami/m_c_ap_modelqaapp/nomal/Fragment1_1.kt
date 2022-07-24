@@ -49,32 +49,32 @@ class Fragment1_1 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "アジルバ10")
+            if (button1.text == "アジルバ®10")
                 button1.setText("アジルサルタン")
-            else{
-                button1.setText("アジルバ10")
+            else {
+                button1.setText("アジルバ®10")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "アジルバ20")
+            if (button2.text == "アジルバ®20")
                 button2.setText("アジルサルタン")
-            else{
-                button2.setText("アジルバ20")
+            else {
+                button2.setText("アジルバ®20")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "アジルバ40")
+            if (button3.text == "アジルバ®40")
                 button3.setText("アジルサルタン")
-            else{
-                button3.setText("アジルバ40")
+            else {
+                button3.setText("アジルバ®40")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "アスベリン20")
-                button4.setText("アスベリン")
-            else{
-                button4.setText("アスベリン20")
+            if (button4.text == "アスベリン®20")
+                button4.setText("チペピジン")
+            else {
+                button4.setText("アスベリン®20")
             }
         }
         button5.setOnClickListener {
@@ -120,17 +120,17 @@ class Fragment1_1 : Fragment() {
             }
         }
         button11.setOnClickListener {
-            if(button11.text == "アトーゼットLD")
+            if (button11.text == "アトーゼット®LD")
                 button11.setText("エゼチミブ10mg,アトルバスタチン10mg")
-            else{
-                button11.setText("アトーゼットLD")
+            else {
+                button11.setText("アトーゼット®LD")
             }
         }
         button12.setOnClickListener {
-            if(button12.text == "アトーゼットHD")
+            if (button12.text == "アトーゼット®HD")
                 button12.setText("エゼチミブ10mg,アトルバスタチン20mg")
-            else{
-                button12.setText("アトーゼットHD")
+            else {
+                button12.setText("アトーゼット®HD")
             }
         }
         button13.setOnClickListener {
@@ -148,10 +148,10 @@ class Fragment1_1 : Fragment() {
             }
         }
         button15.setOnClickListener {
-            if(button15.text == "アリナミンF25")
+            if (button15.text == "アリナミン®F25")
                 button15.setText("フルスルチアミン錠(VB1,VB1誘導体)")
-            else{
-                button15.setText("アリナミンF25")
+            else {
+                button15.setText("アリナミン®F25")
             }
         }
         button16.setOnClickListener {

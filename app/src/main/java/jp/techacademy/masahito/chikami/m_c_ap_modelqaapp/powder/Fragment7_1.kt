@@ -49,32 +49,32 @@ class Fragment7_1 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "アイピーディDS5%")
+            if (button1.text == "アイピーディ®DS5%")
                 button1.setText("スプラタスト")
             else {
-                button1.setText("アイピーディDS5%")
+                button1.setText("アイピーディ®DS5%")
             }
         }
 
         button2.setOnClickListener {
-            if (button2.text == "アスベリン散10%")
+            if (button2.text == "アスベリン®散10%")
                 button2.setText("チペピジン")
             else {
-                button2.setText("アスベリン散10%")
+                button2.setText("アスベリン®散10%")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "アレジオンDS1%")
+            if (button3.text == "アレジオン®DS1%")
                 button3.setText("エピナスチン")
             else {
-                button3.setText("アレジオンDS1%")
+                button3.setText("アレジオン®DS1%")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "オノンDS10%")
+            if (button4.text == "オノン®DS10%")
                 button4.setText("プランルカスト")
             else {
-                button4.setText("オノンDS10%")
+                button4.setText("オノン®DS10%")
             }
         }
         button5.setOnClickListener {
@@ -92,17 +92,17 @@ class Fragment7_1 : Fragment() {
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "トランサミン散50%")
+            if (button7.text == "トランサミン®散50%")
                 button7.setText("トラネキサム酸")
             else {
-                button7.setText("トランサミン散50%")
+                button7.setText("トランサミン®散50%")
             }
         }
         button8.setOnClickListener {
-            if (button8.text == "ホクナリンDS0.1%")
+            if (button8.text == "ホクナリン®DS0.1%")
                 button8.setText("ツロブテロール")
             else {
-                button8.setText("ホクナリンDS0.1%")
+                button8.setText("ホクナリン®DS0.1%")
             }
         }
 

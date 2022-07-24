@@ -48,18 +48,18 @@ class Fragment5_5 : Fragment() {
 
 
         button1.setOnClickListener {
-            if(button1.text == "アンテベートローション")
+            if (button1.text == "アンテベート®ローション")
                 button1.setText("ベタメタゾン酪酸エステルプロピオン酸エステル")
-            else{
-                button1.setText("アンテベートローション")
+            else {
+                button1.setText("アンテベート®ローション")
             }
         }
 
         button2.setOnClickListener {
-            if(button2.text == "アンテベート軟膏")
+            if (button2.text == "アンテベート®軟膏")
                 button2.setText("ベタメタゾン酪酸エステルプロピオン酸エステル")
-            else{
-                button2.setText("アンテベート軟膏")
+            else {
+                button2.setText("アンテベート®軟膏")
             }
         }
         button3.setOnClickListener {
@@ -77,31 +77,31 @@ class Fragment5_5 : Fragment() {
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "プロトピック軟膏")
+            if (button5.text == "プロトピック®軟膏")
                 button5.setText("タクロリムス")
-            else{
-                button5.setText("プロトピック軟膏")
+            else {
+                button5.setText("プロトピック®軟膏")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "トプシムクリーム")
+            if (button6.text == "トプシム®クリーム")
                 button6.setText("フルオシノニド")
-            else{
-                button6.setText("トプシムクリーム")
+            else {
+                button6.setText("トプシム®クリーム")
             }
         }
         button7.setOnClickListener {
-            if(button7.text == "メサデルムクリーム")
+            if (button7.text == "メサデルム®クリーム")
                 button7.setText("デキサメタゾン")
-            else{
-                button7.setText("メサデルムクリーム")
+            else {
+                button7.setText("メサデルム®クリーム")
             }
         }
         button8.setOnClickListener {
-            if(button8.text == "トプシムスプレー")
+            if (button8.text == "トプシム®スプレー")
                 button8.setText("フルオシノニド")
-            else{
-                button8.setText("トプシムスプレー")
+            else {
+                button8.setText("トプシム®スプレー")
             }
         }
 

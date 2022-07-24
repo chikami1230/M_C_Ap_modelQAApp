@@ -49,10 +49,10 @@ class Fragment3_1 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "ウブレチド5mg")
+            if (button1.text == "ウブレチド®5mg")
                 button1.setText("ジスチグミン臭化物")
             else {
-                button1.setText("ウブレチド5mg")
+                button1.setText("ウブレチド®5mg")
             }
         }
 

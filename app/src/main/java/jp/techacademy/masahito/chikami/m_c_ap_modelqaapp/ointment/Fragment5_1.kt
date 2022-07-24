@@ -49,32 +49,32 @@ class Fragment5_1 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "アトラント軟膏")
+            if (button1.text == "アトラント®軟膏")
                 button1.setText("ネチコナゾール")
             else {
-                button1.setText("アトラント軟膏")
+                button1.setText("アトラント®軟膏")
             }
         }
 
         button2.setOnClickListener {
-            if (button2.text == "アフタッチ口腔用貼付剤")
+            if (button2.text == "アフタッチ®口腔用貼付剤")
                 button2.setText("トリアムシノロンアセトニド")
             else {
-                button2.setText("アフタッチ口腔用貼付剤")
+                button2.setText("アフタッチ®口腔用貼付剤")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "アラセナA軟膏")
+            if (button3.text == "アラセナ®A軟膏")
                 button3.setText("ビタラビン")
             else {
-                button3.setText("アラセナA軟膏")
+                button3.setText("アラセナ®A軟膏")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "アクアチムクリーム")
+            if (button4.text == "アクアチム®クリーム")
                 button4.setText("ナジフロキサシン")
             else {
-                button4.setText("アクアチムクリーム")
+                button4.setText("アクアチム®クリーム")
             }
         }
         button5.setOnClickListener {
@@ -92,17 +92,17 @@ class Fragment5_1 : Fragment() {
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "インテバンクリーム")
+            if (button7.text == "インテバン®クリーム")
                 button7.setText("インドメタシン")
             else {
-                button7.setText("インテバンクリーム")
+                button7.setText("インテバン®クリーム")
             }
         }
         button8.setOnClickListener {
-            if (button8.text == "オルテクサー口腔用軟膏")
+            if (button8.text == "オルテクサー®口腔用軟膏")
                 button8.setText("トリアムシノロンアセトニド")
             else {
-                button8.setText("オルテクサー口腔用軟膏")
+                button8.setText("オルテクサー®口腔用軟膏")
             }
         }
 

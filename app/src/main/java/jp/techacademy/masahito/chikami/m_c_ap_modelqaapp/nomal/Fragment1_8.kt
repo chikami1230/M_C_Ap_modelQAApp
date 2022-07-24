@@ -52,38 +52,38 @@ class Fragment1_8 : Fragment() {
         }
 
         button2.setOnClickListener {
-            if(button2.text == "ネキシウム10")
+            if (button2.text == "ネキシウム®10")
                 button2.setText("エソメプラゾール")
-            else{
-                button2.setText("ネキシウム10")
+            else {
+                button2.setText("ネキシウム®10")
             }
         }
         button3.setOnClickListener {
-            if(button3.text == "ネキシウム20")
+            if (button3.text == "ネキシウム®20")
                 button3.setText("エソメプラゾール")
-            else{
-                button3.setText("ネキシウム20")
+            else {
+                button3.setText("ネキシウム®20")
             }
         }
         button4.setOnClickListener {
-            if(button4.text == "ネシーナ12.5")
+            if (button4.text == "ネシーナ®12.5")
                 button4.setText("アログリプチン")
-            else{
-                button4.setText("ネシーナ12.5")
+            else {
+                button4.setText("ネシーナ®12.5")
             }
         }
         button5.setOnClickListener {
-            if(button5.text == "ネシーナ25")
+            if (button5.text == "ネシーナ®25")
                 button5.setText("アログリプチン")
-            else{
-                button5.setText("ネシーナ25")
+            else {
+                button5.setText("ネシーナ®25")
             }
         }
         button6.setOnClickListener {
-            if(button6.text == "バイアスピリン")
+            if (button6.text == "バイアスピリン®")
                 button6.setText("アスピリン")
-            else{
-                button6.setText("バイアスピリン")
+            else {
+                button6.setText("バイアスピリン®")
             }
         }
         button7.setOnClickListener {
@@ -115,10 +115,10 @@ class Fragment1_8 : Fragment() {
             }
         }
         button11.setOnClickListener {
-            if(button11.text == "ビオスリー配合")
+            if (button11.text == "ビオスリー®配合")
                 button11.setText("ラクトミン(乳酸菌)")
-            else{
-                button11.setText("ビオスリー配合")
+            else {
+                button11.setText("ビオスリー®配合")
             }
         }
         button12.setOnClickListener {
@@ -136,10 +136,10 @@ class Fragment1_8 : Fragment() {
             }
         }
         button14.setOnClickListener {
-            if(button14.text == "ビオフェルミン錠剤")
+            if (button14.text == "ビオフェルミン®錠剤")
                 button14.setText("ビフィズス菌")
-            else{
-                button14.setText("ビオフェルミン錠剤")
+            else {
+                button14.setText("ビオフェルミン®錠剤")
             }
         }
         button15.setOnClickListener {
@@ -150,10 +150,10 @@ class Fragment1_8 : Fragment() {
             }
         }
         button16.setOnClickListener {
-            if(button16.text == "輪ゴム小")
-                button16.setText("輪ゴム小")
-            else{
-                button16.setText("輪ゴム小")
+            if (button16.text == "")
+                button16.setText("")
+            else {
+                button16.setText("")
             }
         }
 

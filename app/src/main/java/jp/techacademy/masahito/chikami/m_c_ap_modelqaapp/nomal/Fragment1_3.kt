@@ -104,10 +104,10 @@ class Fragment1_3 : Fragment() {
             }
         }
         button9.setOnClickListener {
-            if(button9.text == "オングリザ5")
+            if (button9.text == "オングリザ®5")
                 button9.setText("オキサグリプチン")
-            else{
-                button9.setText("オングリザ5")
+            else {
+                button9.setText("オングリザ®5")
             }
         }
         button10.setOnClickListener {

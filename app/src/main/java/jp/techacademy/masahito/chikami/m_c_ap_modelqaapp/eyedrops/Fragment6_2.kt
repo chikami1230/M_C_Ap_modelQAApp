@@ -51,60 +51,60 @@ class Fragment6_2 : Fragment() {
 
 
         button1.setOnClickListener {
-            if (button1.text == "ジクアス点眼液")
+            if (button1.text == "ジクアス®点眼液")
                 button1.setText("ジクアホソルNa")
             else {
-                button1.setText("ジクアス点眼液")
+                button1.setText("ジクアス®点眼液")
             }
         }
         button2.setOnClickListener {
-            if (button2.text == "人工涙液マイティア")
+            if (button2.text == "人工涙液マイティア®")
                 button2.setText("塩化Naなど")
             else {
-                button2.setText("人工涙液マイティア")
+                button2.setText("人工涙液マイティア®")
             }
         }
         button3.setOnClickListener {
-            if (button3.text == "セペリン点眼液")
+            if (button3.text == "セペリン®点眼液")
                 button3.setText("アシタザノラスト")
             else {
-                button3.setText("セペリン点眼液")
+                button3.setText("セペリン®点眼液")
             }
         }
         button4.setOnClickListener {
-            if (button4.text == "タチオン点眼液")
+            if (button4.text == "タチオン®点眼液")
                 button4.setText("グルタチオン")
             else {
-                button4.setText("タチオン点眼液")
+                button4.setText("タチオン®点眼液")
             }
         }
         button5.setOnClickListener {
-            if (button5.text == "タリビット耳科用液")
+            if (button5.text == "タリビット®耳科用液")
                 button5.setText("オフロキサシン")
             else {
-                button5.setText("タリビット耳科用液")
+                button5.setText("タリビット®耳科用液")
             }
         }
 
         button6.setOnClickListener {
-            if (button6.text == "ティアバランス点眼液0.1%")
+            if (button6.text == "ティアバランス®点眼液0.1%")
                 button6.setText("ヒアルロン酸Na")
             else {
-                button6.setText("ティアバランス点眼液0.1%")
+                button6.setText("ティアバランス®点眼液0.1%")
             }
         }
         button7.setOnClickListener {
-            if (button7.text == "パタノール点眼液0.1%")
+            if (button7.text == "パタノール®点眼液0.1%")
                 button7.setText("オロパタジン")
             else {
-                button7.setText("パタノール点眼液0.1%")
+                button7.setText("パタノール®点眼液0.1%")
             }
         }
         button8.setOnClickListener {
-            if (button8.text == "ヒアレイン点眼液0.1%")
+            if (button8.text == "ヒアレイン®点眼液0.1%")
                 button8.setText("ヒアルロン酸Na")
             else {
-                button8.setText("ヒアレイン点眼液0.1%")
+                button8.setText("ヒアレイン®点眼液0.1%")
             }
         }
 
