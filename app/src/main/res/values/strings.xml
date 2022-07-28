@@ -35,9 +35,9 @@
 
     <string name="fragment3_1_label">毒薬(錠剤・カプセル)1/1</string>
 
-    <string name="fragment4_1_label">向精神薬1/2</string>
-    <string name="fragment4_2_label">向精神薬2/2</string>
-    <string name="fragment4_3_label">xx</string>
+    <string name="fragment4_1_label">向精神薬1/3</string>
+    <string name="fragment4_2_label">向精神薬2/3</string>
+    <string name="fragment4_3_label">向精神薬3/3</string>
 
     <string name="fragment5_1_label">塗り薬1/6</string>
     <string name="fragment5_2_label">塗り薬2/6</string>

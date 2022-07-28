@@ -433,6 +433,17 @@
             app:destination="@id/Fragment4_3" />
     </fragment>
 
+    <fragment
+        android:id="@+id/Fragment4_3"
+        android:name="jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.psychotropic.Fragment4_3"
+        android:label="@string/fragment4_3_label"
+        tools:layout="@layout/fragment4_3">
+
+        <action
+            android:id="@+id/action_Fragment4_3_to_Fragment4_2"
+            app:destination="@id/Fragment4_2" />
+
+    </fragment>
 
 
     <fragment
