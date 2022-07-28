@@ -35,6 +35,8 @@ import jp.techacademy.masahito.chikami.m_c_ap_modelqaapp.nomal.Fragment1_1
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*    // ← 追加
 
+import com.google.android.gms.ads.MobileAds
+
 class MainActivity() : AppCompatActivity(){
 
     private lateinit var appBarConfiguration: AppBarConfiguration
@@ -45,7 +47,8 @@ class MainActivity() : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        
+
+        MobileAds.initialize(this) {}
 
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
