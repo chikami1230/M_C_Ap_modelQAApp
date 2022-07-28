@@ -26,6 +26,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.viewpager2.widget.ViewPager2
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.navigation.NavigationView    // ← 追加
 import com.google.android.material.tabs.TabLayoutMediator
@@ -42,6 +44,7 @@ class MainActivity() : AppCompatActivity(){
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var drawerLayout: DrawerLayout
 
+    lateinit var mAdView: AdView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +52,10 @@ class MainActivity() : AppCompatActivity(){
         setContentView(R.layout.activity_main)
 
         MobileAds.initialize(this) {}
+
+        mAdView = findViewById(R.id.adView)
+        val adRequest = AdRequest.Builder().build()
+        mAdView.loadAd(adRequest)
 
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
