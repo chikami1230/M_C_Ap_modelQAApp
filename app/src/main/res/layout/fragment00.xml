@@ -14,45 +14,19 @@
         android:layout_height="match_parent"
         android:layout_margin="1dp"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:text="" />
+    　　
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerHorizontal="true"
-            android:text="・このような拙いアプリをDLして下さりありがとうございます。"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_centerHorizontal="true"
-            android:text="・このアプリは実際の薬局の棚を元に作られています。"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_centerHorizontal="true"
-            android:text="・商品名を一般名が結びつかなかったり、薬局に置いてある薬のイメージが持てない薬学生の方へ向けて作成しました。"/>
-    　　<TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_centerHorizontal="true"
-            android:text="・このアプリは実際の薬局の棚(2020年時点)を元に作られています。"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_centerHorizontal="true"
-            android:text="・バグや誤植などのご連絡は以下にお願いいたします。"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_centerHorizontal="true"
-            android:text="twitter"/>
-
+            android:text="" />
     </LinearLayout>
 </LinearLayout>
