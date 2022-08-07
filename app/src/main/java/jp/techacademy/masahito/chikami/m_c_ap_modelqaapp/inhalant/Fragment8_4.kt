@@ -70,14 +70,20 @@ class Fragment8_4 : Fragment() {
         }
         button4.setOnClickListener {
             if (button4.text == "レルベア100エリプタ14吸入用")
-                button4.setText("")
+                button4.setText(
+                    "ビランテロールトリフェニル酢酸塩\n" +
+                            "フルチカゾンフランカルボン酸エステル"
+                )
             else {
                 button4.setText("レルベア100エリプタ14吸入用")
             }
         }
         button5.setOnClickListener {
             if (button5.text == "レルベア100エリプタ30吸入用")
-                button5.setText("")
+                button5.setText(
+                    "ビランテロールトリフェニル酢酸塩\n" +
+                            "フルチカゾンフランカルボン酸エステル"
+                )
             else {
                 button5.setText("レルベア100エリプタ30吸入用")
             }
