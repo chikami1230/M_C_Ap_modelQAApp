@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerHorizontal="true"
-            android:text="普通薬と劇薬は本当の棚をそのままのレイアウトで配置しています。(2020年時点)" />
+            android:text="普通薬と劇薬は実際の棚をそのままのレイアウトで配置しています。(2020年時点)" />
 
         <TextView
             android:layout_width="wrap_content"
