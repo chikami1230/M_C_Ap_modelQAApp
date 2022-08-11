@@ -27,8 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerHorizontal="true"
-            android:text="" />
-
+            android:text="Twitter：@M_C_App" />
 
     </LinearLayout>
 
